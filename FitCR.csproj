@@ -1,11 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net10.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Controllers\" />
+		<Folder Include="Interfaces\" />
+		<Folder Include="Data\" />
+		<Folder Include="NewFolder\" />
+		<Folder Include="Services\" />
+		<Folder Include="Repositories\" />
+		<Folder Include="Views\Clientes\" />
+		<Folder Include="Views\Entrenadores\" />
+		<Folder Include="Views\Acceso\" />
+	</ItemGroup>
 
 </Project>
