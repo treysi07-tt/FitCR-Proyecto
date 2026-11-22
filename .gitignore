@@ -1,0 +1,18 @@
+﻿# Archivos temporales de Visual Studio
+.vs/
+
+# Archivos de compilacion
+bin/
+obj/
+
+# Configuraciones locales del usuario
+*.user
+*.suo
+*.userosscache
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Variables de entorno
+.env
