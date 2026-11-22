@@ -10,11 +10,9 @@
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
-		<Folder Include="Interfaces\" />
 		<Folder Include="Data\" />
 		<Folder Include="NewFolder\" />
 		<Folder Include="Services\" />
-		<Folder Include="Repositories\" />
 		<Folder Include="Views\Clientes\" />
 		<Folder Include="Views\Entrenadores\" />
 		<Folder Include="Views\Acceso\" />
