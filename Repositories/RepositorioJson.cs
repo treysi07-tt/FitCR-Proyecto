@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using FitCR.Interfaces;
+using System.Text.Encodings.Web;
 
 namespace FitCR.Repositories
 {
@@ -40,7 +41,9 @@ namespace FitCR.Repositories
         public void GuardarTodos(List<T> elementos)
         {
             JsonSerializerOptions opciones = new JsonSerializerOptions();
+
             opciones.WriteIndented = true;
+            opciones.Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping;
 
             string contenido = JsonSerializer.Serialize(elementos, opciones);
 

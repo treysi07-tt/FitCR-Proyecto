@@ -9,13 +9,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Controllers\" />
 		<Folder Include="Data\" />
-		<Folder Include="NewFolder\" />
-		<Folder Include="Services\" />
-		<Folder Include="Views\Clientes\" />
 		<Folder Include="Views\Entrenadores\" />
-		<Folder Include="Views\Acceso\" />
 	</ItemGroup>
 
 </Project>
+
