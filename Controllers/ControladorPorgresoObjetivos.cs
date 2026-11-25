@@ -84,9 +84,15 @@ namespace FitCR.Controllers
 
                 bool nuevoEstado = progreso.MetaAlcanzada;
 
-                if (objetivo.Completado != nuevoEstado)
+                DateTime? nuevaFecha = nuevoEstado
+                    ? ObtenerFechaCumplimiento(objetivo)
+                    : null;
+
+                if (objetivo.Completado != nuevoEstado ||
+                    objetivo.FechaCompletado != nuevaFecha)
                 {
                     objetivo.Completado = nuevoEstado;
+                    objetivo.FechaCompletado = nuevaFecha;
 
                     cantidadActualizada++;
                 }
@@ -293,6 +299,132 @@ namespace FitCR.Controllers
                 );
             }
         }
+
+        private DateTime? ObtenerFechaCumplimiento(
+            Objetivo objetivo)
+        {
+            if (objetivo.ValorMeta <= 0 ||
+                !double.IsFinite(objetivo.ValorMeta))
+            {
+                return null;
+            }
+
+            switch (objetivo.TipoObjetivo)
+            {
+                case "Rutinas completadas":
+
+                    var fechasRutinas = repositorioRutinas
+                        .ObtenerTodos()
+                        .Where(r =>
+                            r.IdCliente == objetivo.IdCliente &&
+                            r.Completada &&
+                            r.FechaCompletada.HasValue &&
+                            r.FechaCompletada.Value >=
+                                objetivo.FechaCreacion &&
+                            r.FechaCompletada.Value.Date <=
+                                objetivo.FechaLimite.Date)
+                        .Select(r =>
+                            r.FechaCompletada.GetValueOrDefault())
+                        .OrderBy(f => f)
+                        .ToList();
+
+                    if (fechasRutinas.Count >= objetivo.ValorMeta)
+                    {
+                        int posicion =
+                            (int)Math.Ceiling(objetivo.ValorMeta) - 1;
+
+                        return fechasRutinas[posicion];
+                    }
+
+                    break;
+
+                case "Visitas al gimnasio":
+
+                    var fechasVisitas = repositorioVisitas
+                        .ObtenerTodos()
+                        .Where(v =>
+                            v.IdCliente == objetivo.IdCliente &&
+                            v.FechaVisita >= objetivo.FechaCreacion &&
+                            v.FechaVisita.Date <=
+                                objetivo.FechaLimite.Date)
+                        .Select(v => v.FechaVisita)
+                        .OrderBy(f => f)
+                        .ToList();
+
+                    if (fechasVisitas.Count >= objetivo.ValorMeta)
+                    {
+                        int posicion =
+                            (int)Math.Ceiling(objetivo.ValorMeta) - 1;
+
+                        return fechasVisitas[posicion];
+                    }
+
+                    break;
+
+                case "Peso":
+
+                    var medidas = repositorioMedidas
+                        .ObtenerTodos()
+                        .Where(m =>
+                            m.IdCliente == objetivo.IdCliente &&
+                            m.Fecha.Date <= objetivo.FechaLimite.Date)
+                        .OrderBy(m => m.Fecha)
+                        .ToList();
+
+                    var medidasPeriodo = medidas
+                        .Where(m =>
+                            m.Fecha >= objetivo.FechaCreacion)
+                        .ToList();
+
+                    RegistroMedida? medidaInicial = medidas
+                        .LastOrDefault(m =>
+                            m.Fecha <= objetivo.FechaCreacion);
+
+                    if (medidaInicial == null)
+                    {
+                        medidaInicial =
+                            medidasPeriodo.FirstOrDefault();
+                    }
+
+                    if (medidaInicial == null)
+                    {
+                        return null;
+                    }
+
+                    double pesoInicial =
+                        (double)medidaInicial.Peso;
+
+                    bool aumentarPeso =
+                        objetivo.ValorMeta > pesoInicial;
+
+                    if (pesoInicial == objetivo.ValorMeta)
+                    {
+                        return medidaInicial.Fecha <
+                            objetivo.FechaCreacion
+                            ? objetivo.FechaCreacion
+                            : medidaInicial.Fecha;
+                    }
+
+                    foreach (RegistroMedida medida in medidasPeriodo)
+                    {
+                        double peso = (double)medida.Peso;
+
+                        bool metaAlcanzada = aumentarPeso
+                            ? peso >= objetivo.ValorMeta
+                            : peso <= objetivo.ValorMeta;
+
+                        if (metaAlcanzada)
+                        {
+                            return medida.Fecha;
+                        }
+                    }
+
+                    break;
+            }
+
+            return null;
+        }
+
     }
 }
 

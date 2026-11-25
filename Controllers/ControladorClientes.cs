@@ -10,7 +10,6 @@ namespace FitCR.Controllers
     {
         private readonly IRepositorio<Cliente> repositorio;
         private readonly ServicioUsuarios servicioUsuarios;
-
         public ControladorClientes(
             IRepositorio<Cliente> repositorioRecibido)
         {
@@ -25,7 +24,6 @@ namespace FitCR.Controllers
 
         public void RegistrarCliente(Cliente nuevoCliente)
         {
-            //Validaciones
             if (string.IsNullOrWhiteSpace(nuevoCliente.Nombre))
             {
                 throw new ArgumentException(
@@ -89,6 +87,8 @@ namespace FitCR.Controllers
             }
 
             nuevoCliente.Id = siguienteId;
+
+            nuevoCliente.FechaRegistro = DateTime.Now;
 
             clientes.Add(nuevoCliente);
 

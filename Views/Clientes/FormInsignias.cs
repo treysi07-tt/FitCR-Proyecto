@@ -338,14 +338,7 @@ namespace FitCR.Views.Clientes
 
         private bool EstaDisponible(int idInsignia)
         {
-            return idInsignia != 8 &&
-                   idInsignia != 16 &&
-                   idInsignia != 17 &&
-                   idInsignia != 25 &&
-                   idInsignia != 33 &&
-                   idInsignia != 34 &&
-                   idInsignia != 37 &&
-                   idInsignia != 38;
+            return idInsignia >= 1 && idInsignia <= 38;
         }
 
         private void FormatearColumnas(DataGridView tabla)

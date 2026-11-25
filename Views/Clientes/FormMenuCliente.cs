@@ -1,26 +1,46 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using FitCR.Models.Usuarios;
-
+using FitCR.Models.Notificaciones;
+using FitCR.Controllers;
+using FitCR.Repositories;
+using FitCR.Services;
 
 namespace FitCR.Views.Clientes
 {
     public partial class FormMenuCliente : Form
     {
-        private void buttonRutinas_Click(object? sender, EventArgs e)
-        {
-            using (FormRutinas formulario = new FormRutinas(cliente))
-            {
-                formulario.ShowDialog();
-            }
-        }
-
         private readonly Cliente cliente;
+        private readonly ServicioNotificaciones servicioNotificaciones;
+        private readonly ControladorNotificaciones controladorNotificaciones;
+        private readonly Button botonNotificaciones;
+
         public FormMenuCliente(Cliente clienteRecibido)
         {
             InitializeComponent();
+
             cliente = clienteRecibido;
+
+            servicioNotificaciones =
+                new ServicioNotificaciones();
+
+            string rutaData = Path.Combine(
+                AppContext.BaseDirectory,
+                "Data"
+            );
+
+            controladorNotificaciones =
+                new ControladorNotificaciones(
+                    new RepositorioJson<Notificacion>(
+                        Path.Combine(
+                            rutaData,
+                            "notificaciones.json"
+                        )
+                    )
+                );
+
             Text = "Fit.CR - Menu principal";
             ClientSize = new Size(650, 920);
             StartPosition = FormStartPosition.CenterScreen;
@@ -29,13 +49,17 @@ namespace FitCR.Views.Clientes
             AutoScroll = true;
 
             Label labelBienvenida = new Label();
-            labelBienvenida.Text = "Bienvenido a Fit.CR " + cliente.Nombre;
+            labelBienvenida.Text =
+                "Bienvenido a Fit.CR " + cliente.Nombre;
+
             labelBienvenida.Location = new Point(60, 30);
             labelBienvenida.Size = new Size(530, 45);
             labelBienvenida.Font = new Font(
                 "Segoe UI", 16, FontStyle.Bold
             );
-            labelBienvenida.TextAlign = ContentAlignment.MiddleCenter;
+
+            labelBienvenida.TextAlign =
+                ContentAlignment.MiddleCenter;
 
             Label labelMenu = new Label();
             labelMenu.Text = "Menu principal";
@@ -52,16 +76,7 @@ namespace FitCR.Views.Clientes
             buttonMedidas.Text = "Mis medidas";
             buttonMedidas.Location = new Point(350, 150);
             buttonMedidas.Size = new Size(200, 65);
-
-
-            buttonMedidas.Click += (sender, e) =>
-            {
-                using (FormMedidas medidas = new FormMedidas(cliente))
-                {
-                    medidas.ShowDialog();
-                }
-            };
-
+            buttonMedidas.Click += buttonMedidas_Click;
 
             Button buttonObjetivos = new Button();
             buttonObjetivos.Text = "Mis objetivos";
@@ -82,7 +97,7 @@ namespace FitCR.Views.Clientes
 
             Button buttonInvitados = new Button();
             buttonInvitados.Text = "Mis invitados";
-            buttonInvitados.Location = new Point(175, 4100);
+            buttonInvitados.Location = new Point(175, 410);
             buttonInvitados.Size = new Size(300, 35);
             buttonInvitados.Click += buttonInvitados_Click;
 
@@ -99,13 +114,13 @@ namespace FitCR.Views.Clientes
             buttonInsignias.Font = new Font("Segoe UI", 12);
             buttonInsignias.Click += buttonInsignias_Click;
 
-            Button buttonNotificaciones = new Button();
-            buttonNotificaciones.Name = "buttonNotificaciones";
-            buttonNotificaciones.Text = "Notificaciones";
-            buttonNotificaciones.Location = new Point(175, 605);
-            buttonNotificaciones.Size = new Size(300, 45);
-            buttonNotificaciones.Font = new Font("Segoe UI", 12);
-            buttonNotificaciones.Click += buttonNotificaciones_Click;
+            botonNotificaciones = new Button();
+            botonNotificaciones.Name = "buttonNotificaciones";
+            botonNotificaciones.Text = "Notificaciones";
+            botonNotificaciones.Location = new Point(175, 605);
+            botonNotificaciones.Size = new Size(300, 45);
+            botonNotificaciones.Font = new Font("Segoe UI", 12);
+            botonNotificaciones.Click += buttonNotificaciones_Click;
 
             Button buttonClases = new Button();
             buttonClases.Name = "buttonClases";
@@ -125,82 +140,145 @@ namespace FitCR.Views.Clientes
             Controls.Add(buttonInvitados);
             Controls.Add(buttonVisitas);
             Controls.Add(buttonInsignias);
-            Controls.Add(buttonNotificaciones);
+            Controls.Add(botonNotificaciones);
             Controls.Add(buttonClases);
 
             buttonCerrarSesion.Click += (sender, e) =>
             {
                 Close();
             };
+
+            Shown += (sender, e) =>
+            {
+                SincronizarMenu();
+            };
         }
 
-        private void buttonClases_Click(
-            object? sender, EventArgs e)
+        private void SincronizarMenu()
         {
-            using (FormClasesCliente formulario =
-                new FormClasesCliente(cliente))
+            try
             {
-                formulario.ShowDialog();
+                servicioNotificaciones
+                    .SincronizarNotificaciones(cliente);
+
+                ActualizarContadorNotificaciones();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "No fue posible actualizar las notificaciones. " +
+                    ex.Message,
+                    "Fit.CR",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
             }
         }
 
-        private void buttonNotificaciones_Click(
+        private void ActualizarContadorNotificaciones()
+        {
+            int cantidad = controladorNotificaciones
+                .ContarNotificacionesSinLeer(cliente.Id);
+
+            if (cantidad > 0)
+            {
+                botonNotificaciones.Text =
+                    "Notificaciones (" + cantidad + ")";
+
+                botonNotificaciones.Font = new Font(
+                    "Segoe UI", 12, FontStyle.Bold
+                );
+            }
+            else
+            {
+                botonNotificaciones.Text = "Notificaciones";
+
+                botonNotificaciones.Font = new Font(
+                    "Segoe UI", 12, FontStyle.Regular
+                );
+            }
+        }
+
+        private void AbrirFormulario(Form formulario)
+        {
+            using (formulario)
+            {
+                formulario.ShowDialog(this);
+            }
+
+            SincronizarMenu();
+        }
+
+        private void buttonRutinas_Click(
             object? sender, EventArgs e)
         {
-            using (FormNotificaciones formulario =
-                new FormNotificaciones(cliente))
-            {
-                formulario.ShowDialog();
-            }
+            AbrirFormulario(
+                new FormRutinas(cliente)
+            );
+        }
+
+        private void buttonMedidas_Click(
+            object? sender, EventArgs e)
+        {
+            AbrirFormulario(
+                new FormMedidas(cliente)
+            );
+        }
+
+        private void buttonObjetivos_Click(
+            object? sender, EventArgs e)
+        {
+            AbrirFormulario(
+                new FormObjetivos(cliente)
+            );
+        }
+
+        private void buttonProgreso_Click(
+            object? sender, EventArgs e)
+        {
+            AbrirFormulario(
+                new FormProgreso(cliente)
+            );
+        }
+
+        private void buttonInvitados_Click(
+            object? sender, EventArgs e)
+        {
+            AbrirFormulario(
+                new FormInvitados(cliente)
+            );
+        }
+
+        private void buttonVisitas_Click(
+            object? sender, EventArgs e)
+        {
+            AbrirFormulario(
+                new FormVisitas(cliente)
+            );
         }
 
         private void buttonInsignias_Click(
             object? sender, EventArgs e)
         {
-            using (FormInsignias formulario =
-                new FormInsignias(cliente))
-            {
-                formulario.ShowDialog();
-            }
+            AbrirFormulario(
+                new FormInsignias(cliente)
+            );
         }
 
-        private void buttonProgreso_Click(object? sender, EventArgs e)
+        private void buttonNotificaciones_Click(
+            object? sender, EventArgs e)
         {
-            using (FormProgreso formulario =
-                new FormProgreso(cliente))
-            {
-                formulario.ShowDialog();
-            }
+            AbrirFormulario(
+                new FormNotificaciones(cliente)
+            );
         }
 
-        private void buttonObjetivos_Click(object? sender, EventArgs e)
+        private void buttonClases_Click(
+            object? sender, EventArgs e)
         {
-            using (FormObjetivos formulario =
-                new FormObjetivos(cliente))
-            {
-                formulario.ShowDialog();
-            }
+            AbrirFormulario(
+                new FormClasesCliente(cliente)
+            );
         }
-
-        private void buttonVisitas_Click(object? sender, EventArgs e)
-        {
-            using (FormVisitas formulario =
-                new FormVisitas(cliente))
-            {
-                formulario.ShowDialog();
-            }
-        }
-
-        private void buttonInvitados_Click(object? sender, EventArgs e)
-        {
-            using (FormInvitados formulario =
-                new FormInvitados(cliente))
-            {
-                formulario.ShowDialog();
-            }
-        }
-
-
     }
 }
-

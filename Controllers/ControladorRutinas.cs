@@ -9,6 +9,7 @@ namespace FitCR.Controllers
     public class ControladorRutinas
     {
         private readonly IRepositorio<Rutina> repositorio;
+
         public ControladorRutinas(
             IRepositorio<Rutina> repositorioRecibido)
         {
@@ -42,14 +43,18 @@ namespace FitCR.Controllers
             nuevaRutina.Id = nuevoId;
             nuevaRutina.FechaCreacion = DateTime.Now;
             nuevaRutina.Completada = false;
+
             rutinas.Add(nuevaRutina);
+
             repositorio.GuardarTodos(rutinas);
         }
 
         public void EditarRutina(Rutina rutinaEditada)
         {
             ValidarRutina(rutinaEditada);
+
             List<Rutina> rutinas = repositorio.ObtenerTodos();
+
             Rutina? rutinaExistente = rutinas.FirstOrDefault(
                 r => r.Id == rutinaEditada.Id &&
                      r.IdCliente == rutinaEditada.IdCliente
@@ -68,6 +73,7 @@ namespace FitCR.Controllers
             rutinaExistente.Duracion = rutinaEditada.Duracion;
             rutinaExistente.Series = rutinaEditada.Series;
             rutinaExistente.Repeticiones = rutinaEditada.Repeticiones;
+
             rutinaExistente.FechaVencimiento =
                 rutinaEditada.FechaVencimiento;
 
@@ -91,6 +97,7 @@ namespace FitCR.Controllers
             }
 
             rutinas.Remove(rutina);
+
             repositorio.GuardarTodos(rutinas);
         }
 
@@ -106,12 +113,20 @@ namespace FitCR.Controllers
             if (rutina == null)
             {
                 throw new ArgumentException(
-                    "No se encontró la rutina.  Intente de nuevo"
+                    "No se encontró la rutina. Intente de nuevo"
+                );
+            }
+
+            if (rutina.Completada)
+            {
+                throw new ArgumentException(
+                    "Esta rutina ya fue completada."
                 );
             }
 
             rutina.Completada = true;
             rutina.FechaCompletada = DateTime.Now;
+
             repositorio.GuardarTodos(rutinas);
         }
 
@@ -175,4 +190,3 @@ namespace FitCR.Controllers
         }
     }
 }
-

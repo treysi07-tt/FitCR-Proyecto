@@ -7,8 +7,8 @@ namespace FitCR.Models.Usuarios
     public class Cliente : Usuario
     {
         public double Peso { get; set; }
-
         public double Estatura { get; set; }
+        public DateTime? FechaRegistro { get; set; }
 
         public double CalcularIMC()
         {

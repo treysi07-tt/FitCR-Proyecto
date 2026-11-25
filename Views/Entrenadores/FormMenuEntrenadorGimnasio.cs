@@ -84,12 +84,32 @@ namespace FitCR.Views.Entrenadores
             buttonClases.Enabled = entrenador.ClaseImpartida != "Ninguna";
             buttonClases.Click += buttonClases_Click;
 
+            Button buttonEstadisticas = new Button();
+            buttonEstadisticas.Name = "buttonEstadisticas";
+            buttonEstadisticas.Text = "Estadísticas generales";
+            buttonEstadisticas.Location = new Point(175, 300);
+            buttonEstadisticas.Size = new Size(300, 50);
+            buttonEstadisticas.Font = new Font("Segoe UI", 11);
+            buttonEstadisticas.Click += buttonEstadisticas_Click;
+
             Controls.Add(buttonClases);
             Controls.Add(labelTitulo);
             Controls.Add(labelBienvenida);
             Controls.Add(labelTipo);
             Controls.Add(labelClase);
             Controls.Add(buttonCerrarSesion);
+            Controls.Add(buttonEstadisticas);
+        }
+
+        private void buttonEstadisticas_Click(
+            object? sender,
+            EventArgs e)
+        {
+            using (FormEstadisticas formulario =
+                new FormEstadisticas())
+            {
+                formulario.ShowDialog();
+            }
         }
 
         private void buttonClases_Click(

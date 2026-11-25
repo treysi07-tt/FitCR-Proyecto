@@ -34,7 +34,10 @@ namespace FitCR.Services
 
         public int SincronizarNotificaciones(Cliente cliente)
         {
+            ActualizarLogros(cliente.Id);
+
             int cantidad = 0;
+
             cantidad += NotificarBienvenida(cliente);
             cantidad += NotificarRutinas(cliente.Id);
             cantidad += NotificarVisitas(cliente.Id);
@@ -42,9 +45,41 @@ namespace FitCR.Services
             cantidad += NotificarMedidas(cliente.Id);
             cantidad += NotificarObjetivos(cliente.Id);
             cantidad += NotificarInsignias(cliente.Id);
-            NotificarClases(cliente.Id);
+            cantidad += NotificarClases(cliente.Id);
 
             return cantidad;
+        }
+
+        private void ActualizarLogros(int idCliente)
+        {
+            ControladorInsignias controladorInsignias =
+                new ControladorInsignias(
+                    new RepositorioJson<InsigniaObtenida>(
+                        Path.Combine(
+                            rutaData, "insignias_obtenidas.json")),
+
+                    new RepositorioJson<Rutina>(
+                        Path.Combine(
+                            rutaData, "rutinas.json")),
+
+                    new RepositorioJson<RegistroVisita>(
+                        Path.Combine(
+                            rutaData, "visitas.json")),
+
+                    new RepositorioJson<Objetivo>(
+                        Path.Combine(
+                            rutaData, "objetivos.json")),
+
+                    new RepositorioJson<RegistroMedida>(
+                        Path.Combine(
+                            rutaData, "medidas.json")),
+
+                    new RepositorioJson<RegistroInvitado>(
+                        Path.Combine(
+                            rutaData, "invitados.json"))
+                );
+
+            controladorInsignias.EvaluarInsignias(idCliente);
         }
 
         private int NotificarBienvenida(Cliente cliente)
@@ -222,7 +257,8 @@ namespace FitCR.Services
                         "Felicidades, has alcanzado tu objetivo: " +
                         objetivo.Nombre + ".",
                         "Objetivos",
-                        "objetivo_completado_" + objetivo.Id))
+                        "objetivo_completado_" + objetivo.Id,
+                        objetivo.FechaCompletado))
                     {
                         cantidad++;
                     }

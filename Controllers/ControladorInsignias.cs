@@ -149,6 +149,8 @@ namespace FitCR.Controllers
                         )) >= 10,
                     7 => rutinas.Sum(r => r.Duracion) >= 600,
 
+                    8 => TieneMejoraRutinas(rutinas),
+
                     9 => visitas.Count >= 1,
                     10 => visitas.Count >= 10,
                     11 => visitas.Count >= 30,
@@ -166,6 +168,12 @@ namespace FitCR.Controllers
                         o.TipoObjetivo == "Rutinas completadas"),
                     24 => objetivosCompletados.Any(o =>
                         o.TipoObjetivo == "Visitas al gimnasio"),
+
+                    25 => objetivosCompletados.Any(o =>
+                        o.FechaCompletado.HasValue &&
+                        o.FechaCompletado.Value.Date <
+                            o.FechaLimite.Date),
+
                     26 => objetivos.Count >= 3 &&
                         objetivos.All(o => o.Completado),
 
@@ -256,6 +264,50 @@ namespace FitCR.Controllers
                 }
             }
 
+            ServicioEstadisticasMensuales servicioMensual =
+                new ServicioEstadisticasMensuales();
+
+            var mesesEvaluables =
+                servicioMensual.ObtenerMesesEvaluables(idCliente);
+
+            foreach (DateTime mes in mesesEvaluables)
+            {
+                var idsInsignias =
+                    servicioMensual.ObtenerInsigniasMensuales(
+                        idCliente,
+                        mes
+                    );
+
+                foreach (int idInsignia in idsInsignias)
+                {
+                    bool yaObtenida = registros.Any(i =>
+                        i.IdCliente == idCliente &&
+                        i.IdInsignia == idInsignia &&
+                        i.PeriodoInicio == mes);
+
+                    if (yaObtenida)
+                    {
+                        continue;
+                    }
+
+                    Insignia insignia = catalogo.First(i =>
+                        i.Id == idInsignia);
+
+                    registros.Add(new InsigniaObtenida
+                    {
+                        Id = siguienteId++,
+                        IdCliente = idCliente,
+                        IdInsignia = idInsignia,
+                        FechaObtencion = DateTime.Now,
+                        PeriodoInicio = mes,
+                        PeriodoFin = mes.AddMonths(1).AddDays(-1)
+                    });
+
+                    nuevasInsignias.Add(insignia);
+                }
+            }
+
+
             if (nuevasInsignias.Count > 0)
             {
                 repositorioInsignias.GuardarTodos(registros);
@@ -342,6 +394,72 @@ namespace FitCR.Controllers
                 (DateTime.Today - ultimaVisita).Days - 1;
 
             return diasSinAsistir >= 15;
+        }
+
+        private bool TieneMejoraRutinas(List<Rutina> rutinas)
+        {
+            var rutinasCompletadas = rutinas
+                .Where(r =>
+                    r.Completada &&
+                    r.FechaCompletada.HasValue)
+                .OrderBy(r => r.FechaCompletada)
+                .ThenBy(r => r.Id)
+                .ToList();
+
+            for (int i = 0; i < rutinasCompletadas.Count; i++)
+            {
+                Rutina anterior = rutinasCompletadas[i];
+
+                for (int j = i + 1;
+                    j < rutinasCompletadas.Count; j++)
+                {
+                    Rutina actual = rutinasCompletadas[j];
+
+                    bool mismoCliente =
+                        anterior.IdCliente == actual.IdCliente;
+
+                    bool mismoNombre = string.Equals(
+                        anterior.Nombre.Trim(),
+                        actual.Nombre.Trim(),
+                        StringComparison.OrdinalIgnoreCase
+                    );
+
+                    bool mismoTipo = string.Equals(
+                        anterior.TipoEjercicio.Trim(),
+                        actual.TipoEjercicio.Trim(),
+                        StringComparison.OrdinalIgnoreCase
+                    );
+
+                    bool fechaPosterior =
+                        actual.FechaCompletada >
+                        anterior.FechaCompletada;
+
+                    if (!mismoCliente ||
+                        !mismoNombre ||
+                        !mismoTipo ||
+                        !fechaPosterior)
+                    {
+                        continue;
+                    }
+
+                    bool mejoraSeries =
+                        actual.Series > anterior.Series &&
+                        actual.Repeticiones >=
+                            anterior.Repeticiones;
+
+                    bool mejoraRepeticiones =
+                        actual.Repeticiones >
+                            anterior.Repeticiones &&
+                        actual.Series >= anterior.Series;
+
+                    if (mejoraSeries || mejoraRepeticiones)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
 
         private bool EstaDisponible(int idInsignia)

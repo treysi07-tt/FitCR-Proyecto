@@ -13,6 +13,7 @@ namespace FitCR.Models.Objetivos
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaLimite { get; set; }
         public bool Completado { get; set; }
+        public DateTime? FechaCompletado { get; set; }
     }
 }
 
