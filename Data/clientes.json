@@ -1,0 +1,502 @@
+[
+    {
+        "Peso":  95.63,
+        "Estatura":  1.91,
+        "FechaRegistro":  "2026-01-05T00:00:00",
+        "Id":  12,
+        "Nombre":  "Mariana Jiménez Hernández",
+        "NombreUsuario":  "cliente_demo_001",
+        "Edad":  62,
+        "ContrasenaHash":  "Jv4aeILObkWpk4AJ9E7FUQ==:pZeJV8P8WVAn3fafnK/XSUBDnInKRSc55UAAfdMaSzU="
+    },
+    {
+        "Peso":  66.12,
+        "Estatura":  1.91,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  13,
+        "Nombre":  "Daniel González Quesada",
+        "NombreUsuario":  "cliente_demo_002",
+        "Edad":  48,
+        "ContrasenaHash":  "ZkE097BuedX0BdJZrg2v3A==:pRAXcKYrdh1JpKJW4gssIms7rQdX5UXl/W54UWtWsmY="
+    },
+    {
+        "Peso":  63.94,
+        "Estatura":  1.73,
+        "FechaRegistro":  "2026-01-07T00:00:00",
+        "Id":  14,
+        "Nombre":  "Valeria Ramírez Chaves",
+        "NombreUsuario":  "cliente_demo_003",
+        "Edad":  24,
+        "ContrasenaHash":  "dqfhxyMsFjzf2r/FZMsmbQ==:sZ/l5LyCkmp1GFe7tmMIHzisIf1Z3/S5Mor57Fk10DY="
+    },
+    {
+        "Peso":  91.31,
+        "Estatura":  1.68,
+        "FechaRegistro":  "2026-02-18T00:00:00",
+        "Id":  15,
+        "Nombre":  "Andrés Chaves Salazar",
+        "NombreUsuario":  "cliente_demo_004",
+        "Edad":  18,
+        "ContrasenaHash":  "L1vSrrVOE25lhjP39DQLkA==:c5UqKPbVhMm9XrSk+qbVyX/cLEBI8JtmZ206pShBdxU="
+    },
+    {
+        "Peso":  48.22,
+        "Estatura":  1.57,
+        "FechaRegistro":  "2026-02-14T00:00:00",
+        "Id":  16,
+        "Nombre":  "Sofía Hernández Sánchez",
+        "NombreUsuario":  "cliente_demo_005",
+        "Edad":  57,
+        "ContrasenaHash":  "af+xIYDbEoOxeRg3x4WmpQ==:Uq1i0/+/mQCRufPIU6hFOmSTzz9nDHA/nrAFH1Wm1gw="
+    },
+    {
+        "Peso":  85.13,
+        "Estatura":  1.54,
+        "FechaRegistro":  "2026-02-03T00:00:00",
+        "Id":  17,
+        "Nombre":  "Gabriel Rodríguez Rodríguez",
+        "NombreUsuario":  "cliente_demo_006",
+        "Edad":  18,
+        "ContrasenaHash":  "oPCU2qT7wk+7wzsz4nwRfQ==:f6EVLKuCtCtybX8pwHp0skNNof906hnhU9QE1zE8PBs="
+    },
+    {
+        "Peso":  64.77,
+        "Estatura":  1.89,
+        "FechaRegistro":  "2026-02-05T00:00:00",
+        "Id":  18,
+        "Nombre":  "Camila Hernández Vargas",
+        "NombreUsuario":  "cliente_demo_007",
+        "Edad":  32,
+        "ContrasenaHash":  "GaAVQQaXiNjIRmMFd7tlng==:H5ybJfPzCIO4l6GCYF58GW2IoKnF5Itv5seIYQjVYpU="
+    },
+    {
+        "Peso":  95.81,
+        "Estatura":  1.78,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  19,
+        "Nombre":  "Sebastián Hernández Chaves",
+        "NombreUsuario":  "cliente_demo_008",
+        "Edad":  22,
+        "ContrasenaHash":  "jo/ExNaIzWHJlFfvNxSRlQ==:GSs7CCpnHVhcjPQt0Ov+7U/3doLJxiXJFEPSO/AktiM="
+    },
+    {
+        "Peso":  86.89,
+        "Estatura":  1.51,
+        "FechaRegistro":  "2026-01-15T00:00:00",
+        "Id":  20,
+        "Nombre":  "Lucía Vargas Méndez",
+        "NombreUsuario":  "cliente_demo_009",
+        "Edad":  55,
+        "ContrasenaHash":  "kbABOXyvlAZKvjeO/A7N4w==:oJVRy3LcEVPj/qGfM/rbuXyoXIN06ytO8bsQhopO4TU="
+    },
+    {
+        "Peso":  52.37,
+        "Estatura":  1.83,
+        "FechaRegistro":  "2026-01-19T00:00:00",
+        "Id":  21,
+        "Nombre":  "Diego Quesada Hernández",
+        "NombreUsuario":  "cliente_demo_010",
+        "Edad":  60,
+        "ContrasenaHash":  "8iKuBaAViYQnoKj8G9rLcg==:AHJLrwbvV5VagviIVcFZ1I8CLr6m3TBZ4wEYHnv/GIU="
+    },
+    {
+        "Peso":  92.5,
+        "Estatura":  1.6,
+        "FechaRegistro":  "2026-02-17T00:00:00",
+        "Id":  22,
+        "Nombre":  "Isabella Hernández González",
+        "NombreUsuario":  "cliente_demo_011",
+        "Edad":  51,
+        "ContrasenaHash":  "YuOr2L/S240rNrm8zzl9Jw==:Hxl760hxlVHbbmeddLD12PjRdF89OQjD5+K0ukLLAes="
+    },
+    {
+        "Peso":  74.57,
+        "Estatura":  1.52,
+        "FechaRegistro":  "2026-01-25T00:00:00",
+        "Id":  23,
+        "Nombre":  "Esteban Jiménez Sánchez",
+        "NombreUsuario":  "cliente_demo_012",
+        "Edad":  38,
+        "ContrasenaHash":  "nKHRi8AQ5CKexsGxwvcSlA==:9gwS5euYTh2JuC2ZtPJvl9n8gKH8k1nUy7vtfgdgHrQ="
+    },
+    {
+        "Peso":  68.13,
+        "Estatura":  1.78,
+        "FechaRegistro":  "2026-02-21T00:00:00",
+        "Id":  24,
+        "Nombre":  "Natalia Montero Jiménez",
+        "NombreUsuario":  "cliente_demo_013",
+        "Edad":  62,
+        "ContrasenaHash":  "T4a/q0SqI8MAWD3/FnZJEQ==:qYgx26B25+RHnqDQ21Ma2h53KxFjfFBEqZcXeboKUYE="
+    },
+    {
+        "Peso":  79.33,
+        "Estatura":  1.92,
+        "FechaRegistro":  "2026-01-10T00:00:00",
+        "Id":  25,
+        "Nombre":  "Adrián Araya Hernández",
+        "NombreUsuario":  "cliente_demo_014",
+        "Edad":  65,
+        "ContrasenaHash":  "tNwXpQcJPfTSgLKyzYJBBg==:3wEvu6TOndBZHWdUhmU4VPvHHfx5hNmxF5Qy4BFZ4bw="
+    },
+    {
+        "Peso":  85.78,
+        "Estatura":  1.91,
+        "FechaRegistro":  "2026-02-19T00:00:00",
+        "Id":  26,
+        "Nombre":  "Paula Méndez Solís",
+        "NombreUsuario":  "cliente_demo_015",
+        "Edad":  22,
+        "ContrasenaHash":  "EJzQxmIxiGuehW8L4WC30A==:NqsrzQ2Lg2CSf4vgK6fKkZr5PvyT3O41YZM4kkceu9k="
+    },
+    {
+        "Peso":  97.77,
+        "Estatura":  1.53,
+        "FechaRegistro":  "2026-01-13T00:00:00",
+        "Id":  27,
+        "Nombre":  "José González Jiménez",
+        "NombreUsuario":  "cliente_demo_016",
+        "Edad":  35,
+        "ContrasenaHash":  "k/SVf1+OErGIVeezQktGpQ==:xpnodzMSWxLDqp4DbeST/ftN7fO6GGi8GWiyTawX4d8="
+    },
+    {
+        "Peso":  60.54,
+        "Estatura":  1.85,
+        "FechaRegistro":  "2026-03-01T00:00:00",
+        "Id":  28,
+        "Nombre":  "Fernanda Quesada Ramírez",
+        "NombreUsuario":  "cliente_demo_017",
+        "Edad":  33,
+        "ContrasenaHash":  "2DLO1Cop6XXQBu6NO2lM9Q==:C93C8ieIzN3GJ5qjcIyXLWI4s9Po163Jz3X12oBYrv4="
+    },
+    {
+        "Peso":  63.96,
+        "Estatura":  1.51,
+        "FechaRegistro":  "2026-02-20T00:00:00",
+        "Id":  29,
+        "Nombre":  "David Salazar Chaves",
+        "NombreUsuario":  "cliente_demo_018",
+        "Edad":  63,
+        "ContrasenaHash":  "fnLb77mTm2OBOvuzHUbrUg==:aXEhK8whoDUZvWVe262wMLRI+WxoxdBS34zVbMmCSVo="
+    },
+    {
+        "Peso":  48.15,
+        "Estatura":  1.68,
+        "FechaRegistro":  "2026-01-27T00:00:00",
+        "Id":  30,
+        "Nombre":  "Laura Solís Ramírez",
+        "NombreUsuario":  "cliente_demo_019",
+        "Edad":  49,
+        "ContrasenaHash":  "oClhG7oxm/YN1Of9OE+4QQ==:ap5JXGmPtT3NvtUIAK8SyNDiZFyY+nrxQd8ROJC/LRQ="
+    },
+    {
+        "Peso":  72.28,
+        "Estatura":  1.92,
+        "FechaRegistro":  "2026-02-25T00:00:00",
+        "Id":  31,
+        "Nombre":  "Alejandro Solís Sánchez",
+        "NombreUsuario":  "cliente_demo_020",
+        "Edad":  52,
+        "ContrasenaHash":  "emlKK3CDbebLs3Zf2yks+A==:YoYEnf8rDf/89jiH5clgnB6sho7MU2SdOPsx7RPoLeA="
+    },
+    {
+        "Peso":  83.41,
+        "Estatura":  1.9,
+        "FechaRegistro":  "2026-02-23T00:00:00",
+        "Id":  32,
+        "Nombre":  "Carolina Araya Ramírez",
+        "NombreUsuario":  "cliente_demo_021",
+        "Edad":  51,
+        "ContrasenaHash":  "1MvwCDszwLAHe3hM0Odqvw==:R7VyOyjUPhEOuYWmvDemX4ECrIlwYPVeZjbJumfog38="
+    },
+    {
+        "Peso":  90.4,
+        "Estatura":  1.74,
+        "FechaRegistro":  "2026-01-13T00:00:00",
+        "Id":  33,
+        "Nombre":  "Marco Mora Montero",
+        "NombreUsuario":  "cliente_demo_022",
+        "Edad":  24,
+        "ContrasenaHash":  "RpSuvTeZnB4FIiIFN/uveA==:qQXL6kEt/Ymj70jh4nb6hq2g/zqUJdGYqGiz8PW+uRY="
+    },
+    {
+        "Peso":  104.19,
+        "Estatura":  1.88,
+        "FechaRegistro":  "2026-01-26T00:00:00",
+        "Id":  34,
+        "Nombre":  "Daniela Chaves Ramírez",
+        "NombreUsuario":  "cliente_demo_023",
+        "Edad":  42,
+        "ContrasenaHash":  "zCKR2l5UkW19LmF9kkYPoQ==:ZtBjrHkctDif8dawiBeG44DR0OO4Rj9E0XJlWvflxr4="
+    },
+    {
+        "Peso":  66.98,
+        "Estatura":  1.71,
+        "FechaRegistro":  "2026-01-30T00:00:00",
+        "Id":  35,
+        "Nombre":  "Luis Rojas Aguilar",
+        "NombreUsuario":  "cliente_demo_024",
+        "Edad":  31,
+        "ContrasenaHash":  "VXCdwDmKx1lql/4o/wNB7g==:dgLgO5Ssg46S4FLVUn37bHAiclMdODHkm4mExMX+Oj8="
+    },
+    {
+        "Peso":  99.34,
+        "Estatura":  1.81,
+        "FechaRegistro":  "2026-01-26T00:00:00",
+        "Id":  36,
+        "Nombre":  "Gabriela Jiménez Sánchez",
+        "NombreUsuario":  "cliente_demo_025",
+        "Edad":  54,
+        "ContrasenaHash":  "SBzddMrtXu7Z8K1M9nLVQQ==:lIcHL1NND/vki13XEar2Z1ajhLLF/l/xbuQnAVu5fhI="
+    },
+    {
+        "Peso":  73.54,
+        "Estatura":  1.76,
+        "FechaRegistro":  "2026-01-21T00:00:00",
+        "Id":  37,
+        "Nombre":  "Javier Alvarado Solís",
+        "NombreUsuario":  "cliente_demo_026",
+        "Edad":  40,
+        "ContrasenaHash":  "648ou4gewvKl4L4L2hqj+A==:4yOvTtJLOr3yNx7Us8JEs4dhmg/GBUYHzKp9V0fJkpY="
+    },
+    {
+        "Peso":  56.15,
+        "Estatura":  1.65,
+        "FechaRegistro":  "2026-01-13T00:00:00",
+        "Id":  38,
+        "Nombre":  "Victoria Hernández Jiménez",
+        "NombreUsuario":  "cliente_demo_027",
+        "Edad":  48,
+        "ContrasenaHash":  "Ng5E7jZa8GIgdgIQ8m3wEw==:ta1f1+sBxnhNLX7ZPTuqUBSAJ22cKBwqlsnAQAKgcXQ="
+    },
+    {
+        "Peso":  76.34,
+        "Estatura":  1.73,
+        "FechaRegistro":  "2026-02-27T00:00:00",
+        "Id":  39,
+        "Nombre":  "Felipe Araya Aguilar",
+        "NombreUsuario":  "cliente_demo_028",
+        "Edad":  60,
+        "ContrasenaHash":  "i5bsIIayKalMUi3gHjNLog==:qt3wHmjYwllloIAKRByrzLwWYE46AwvyG+cpDLk2BQc="
+    },
+    {
+        "Peso":  69.57,
+        "Estatura":  1.65,
+        "FechaRegistro":  "2026-01-22T00:00:00",
+        "Id":  40,
+        "Nombre":  "Elena Vega Solís",
+        "NombreUsuario":  "cliente_demo_029",
+        "Edad":  55,
+        "ContrasenaHash":  "97VlG/Ei+2ToAV04qY4Qkw==:C1j1ueAvmkBT2ysq4Mm0Ofpvk4og9vlwjBGBwKRb2vI="
+    },
+    {
+        "Peso":  62.99,
+        "Estatura":  1.7,
+        "FechaRegistro":  "2026-01-15T00:00:00",
+        "Id":  41,
+        "Nombre":  "Pablo Sánchez Alvarado",
+        "NombreUsuario":  "cliente_demo_030",
+        "Edad":  64,
+        "ContrasenaHash":  "bAX9WSXwypzMd+LgizZCZA==:aGEWGgXwVNE4+W2DDC8hEUHhoz1KG2e4PJ9hm8tA3yI="
+    },
+    {
+        "Peso":  87.09,
+        "Estatura":  1.61,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  42,
+        "Nombre":  "Ana Rodríguez Rodríguez",
+        "NombreUsuario":  "cliente_demo_031",
+        "Edad":  24,
+        "ContrasenaHash":  "VGZEArMsV629oo15GQxCxQ==:hePgKReRXREs+gbCmk4BQLG8C+bvoNwdJSXHKuO/y3U="
+    },
+    {
+        "Peso":  63.02,
+        "Estatura":  1.81,
+        "FechaRegistro":  "2026-02-11T00:00:00",
+        "Id":  43,
+        "Nombre":  "Cristian Araya Rodríguez",
+        "NombreUsuario":  "cliente_demo_032",
+        "Edad":  58,
+        "ContrasenaHash":  "tUpaSTpXgy0MqrU1fBCtWQ==:5bQy9RBbUoOHClEnMn0sZe1tvQu9Lya6xPDAdawcMSQ="
+    },
+    {
+        "Peso":  55.83,
+        "Estatura":  1.74,
+        "FechaRegistro":  "2026-02-23T00:00:00",
+        "Id":  44,
+        "Nombre":  "Melissa Salazar Rodríguez",
+        "NombreUsuario":  "cliente_demo_033",
+        "Edad":  29,
+        "ContrasenaHash":  "X15LYqDAiEo/9MFHsP1pqw==:RQssf6LSixXJar++ltko5EPIgO+9Q6xyFE6dINKHdS4="
+    },
+    {
+        "Peso":  94.55,
+        "Estatura":  1.94,
+        "FechaRegistro":  "2026-01-22T00:00:00",
+        "Id":  45,
+        "Nombre":  "Ricardo Aguilar Araya",
+        "NombreUsuario":  "cliente_demo_034",
+        "Edad":  24,
+        "ContrasenaHash":  "1b97bZe4AVJeoWcoFefBXA==:07vstXl+LyCdYFizFjqUBdHXeqFS7+oXwt1Da9Qxhjg="
+    },
+    {
+        "Peso":  56.83,
+        "Estatura":  1.84,
+        "FechaRegistro":  "2026-01-08T00:00:00",
+        "Id":  46,
+        "Nombre":  "Andrea Sánchez Jiménez",
+        "NombreUsuario":  "cliente_demo_035",
+        "Edad":  18,
+        "ContrasenaHash":  "8lDCPCWBZPsTATffNl49/w==:HjsDkAYaN7LJ/cscZSuZprfBRPdwsid9keKfLWicKqk="
+    },
+    {
+        "Peso":  69.82,
+        "Estatura":  1.92,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  47,
+        "Nombre":  "Jorge Castro Vargas",
+        "NombreUsuario":  "cliente_demo_036",
+        "Edad":  52,
+        "ContrasenaHash":  "1O8ibNMk57vKyHMTShutfg==:dfA+eC20cmxF1gtb2Ljos5KRjgx/h0vlo9kLUcJsVbM="
+    },
+    {
+        "Peso":  85.05,
+        "Estatura":  1.81,
+        "FechaRegistro":  "2026-01-23T00:00:00",
+        "Id":  48,
+        "Nombre":  "Patricia Vargas Mora",
+        "NombreUsuario":  "cliente_demo_037",
+        "Edad":  33,
+        "ContrasenaHash":  "4cnaflsGQSCgxM/td/b5WA==:o9aDRs/C9TbK1qTnm7DfPK3AgHcMu2hmZgDQ9u3vUa8="
+    },
+    {
+        "Peso":  54.44,
+        "Estatura":  1.73,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  49,
+        "Nombre":  "Mauricio Rodríguez Salazar",
+        "NombreUsuario":  "cliente_demo_038",
+        "Edad":  47,
+        "ContrasenaHash":  "Ny/3JzMy+8NWwtG36lIieQ==:bvusGxqPvgKMkLAdo3hXm6utIVhTBFUuGmb5QX/5GXA="
+    },
+    {
+        "Peso":  54.45,
+        "Estatura":  1.78,
+        "FechaRegistro":  "2026-02-12T00:00:00",
+        "Id":  50,
+        "Nombre":  "Tatiana Rodríguez Aguilar",
+        "NombreUsuario":  "cliente_demo_039",
+        "Edad":  61,
+        "ContrasenaHash":  "Blnp24ccRbkxx1mTF/lsYA==:VQLrcgo4Io0+RjZvQBHHHYFm6Uyrc6iS8fA8Jv9UkVg="
+    },
+    {
+        "Peso":  88.16,
+        "Estatura":  1.52,
+        "FechaRegistro":  "2026-01-04T00:00:00",
+        "Id":  51,
+        "Nombre":  "Kevin Vargas Solís",
+        "NombreUsuario":  "cliente_demo_040",
+        "Edad":  25,
+        "ContrasenaHash":  "GFNuAufdMJfHXgrm67KcYQ==:VCYDkz+oHxsZNOiShOoxkx42rvgHlBZM45gsSTnaVuE="
+    },
+    {
+        "Peso":  85.42,
+        "Estatura":  1.86,
+        "FechaRegistro":  "2026-02-07T00:00:00",
+        "Id":  52,
+        "Nombre":  "Rebeca Jiménez González",
+        "NombreUsuario":  "cliente_demo_041",
+        "Edad":  35,
+        "ContrasenaHash":  "kh4OCoRxBDx6fqF0KShxAw==:VMVujJUoim6ogzihBlKwp6nQ9IBbg+whapWX4krhaos="
+    },
+    {
+        "Peso":  52.33,
+        "Estatura":  1.95,
+        "FechaRegistro":  "2026-02-01T00:00:00",
+        "Id":  53,
+        "Nombre":  "Isaac Méndez Castro",
+        "NombreUsuario":  "cliente_demo_042",
+        "Edad":  27,
+        "ContrasenaHash":  "lh2c4vq171lmuwpFGgEKBw==:EGVs6kk5nYXw4yMW6sfxKxO2JisSoKQ23YFz9xFKY+g="
+    },
+    {
+        "Peso":  88.15,
+        "Estatura":  1.8,
+        "FechaRegistro":  "2026-01-13T00:00:00",
+        "Id":  54,
+        "Nombre":  "Sara Aguilar Quesada",
+        "NombreUsuario":  "cliente_demo_043",
+        "Edad":  20,
+        "ContrasenaHash":  "t6G2xGUxMCJm3ijVXX/2xQ==:bGLXjMwrfGNJBBldWMf0OqK3jVLVMeZU98R9AO4v3cA="
+    },
+    {
+        "Peso":  90.46,
+        "Estatura":  1.94,
+        "FechaRegistro":  "2026-01-12T00:00:00",
+        "Id":  55,
+        "Nombre":  "Antonio Araya Aguilar",
+        "NombreUsuario":  "cliente_demo_044",
+        "Edad":  51,
+        "ContrasenaHash":  "8ivJKw1wy8wSRe30mOMU0g==:GWICvWJfGB3k6ERchzG4/jVU+eWf2hulFgJy4Hk6yQY="
+    },
+    {
+        "Peso":  50.9,
+        "Estatura":  1.63,
+        "FechaRegistro":  "2026-02-07T00:00:00",
+        "Id":  56,
+        "Nombre":  "Nicole Rojas Hernández",
+        "NombreUsuario":  "cliente_demo_045",
+        "Edad":  39,
+        "ContrasenaHash":  "Y4TThlxchXmsWgjG6hk27Q==:LNCB/BTbiq0zvs4NSCqr5jDowO0LjACJkmXwsJE7R4k="
+    },
+    {
+        "Peso":  63.4,
+        "Estatura":  1.73,
+        "FechaRegistro":  "2026-01-03T00:00:00",
+        "Id":  57,
+        "Nombre":  "Emmanuel Vargas Solís",
+        "NombreUsuario":  "cliente_demo_046",
+        "Edad":  64,
+        "ContrasenaHash":  "XFIyuLWOKF/jn7My0sk+hA==:kRWAGfqdD6ty4kHqLhHQdc4ah5dRSmS00qQCT3Hu3cA="
+    },
+    {
+        "Peso":  50.02,
+        "Estatura":  1.55,
+        "FechaRegistro":  "2026-01-07T00:00:00",
+        "Id":  58,
+        "Nombre":  "Jimena Mora Ramírez",
+        "NombreUsuario":  "cliente_demo_047",
+        "Edad":  64,
+        "ContrasenaHash":  "UIFekdCzbo3nlTMSbMzBVw==:6xVfqTt603IBvzihtIl3/PyeVRdPZfA1LBFPJ6cJs7w="
+    },
+    {
+        "Peso":  69.45,
+        "Estatura":  1.74,
+        "FechaRegistro":  "2026-02-14T00:00:00",
+        "Id":  59,
+        "Nombre":  "Mateo Mora Vargas",
+        "NombreUsuario":  "cliente_demo_048",
+        "Edad":  45,
+        "ContrasenaHash":  "Pstzrcm1hqvwQvwr2e4cNA==:YPccQP6HuYV2lj23gM670AW8ImYALJKVfSJt394LmC0="
+    },
+    {
+        "Peso":  96.54,
+        "Estatura":  1.51,
+        "FechaRegistro":  "2026-01-30T00:00:00",
+        "Id":  60,
+        "Nombre":  "Alison González Solís",
+        "NombreUsuario":  "cliente_demo_049",
+        "Edad":  49,
+        "ContrasenaHash":  "SQHK6BIvJKIIHm66/ZsJbQ==:5eCPESBkPK1TIwL2mQoZ5xP3DVT/9hrD7hDPdZPsyyg="
+    },
+    {
+        "Peso":  58.32,
+        "Estatura":  1.72,
+        "FechaRegistro":  "2026-02-01T00:00:00",
+        "Id":  61,
+        "Nombre":  "Samuel Castro Castro",
+        "NombreUsuario":  "cliente_demo_050",
+        "Edad":  50,
+        "ContrasenaHash":  "K1JDQRxlucYMBMpJokXFwQ==:Fj93cEAX1Dd1eg4igm8P9Y2oNiqHJdXGul2cYicxWTE="
+    }
+]

@@ -1,0 +1,1002 @@
+[
+    {
+        "Id":  4,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 01",
+        "IdEntrenador":  4,
+        "FechaHora":  "2026-03-15T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  5,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 02",
+        "IdEntrenador":  14,
+        "FechaHora":  "2026-03-27T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  6,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 03",
+        "IdEntrenador":  24,
+        "FechaHora":  "2026-04-08T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  7,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 04",
+        "IdEntrenador":  34,
+        "FechaHora":  "2026-04-20T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  8,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 05",
+        "IdEntrenador":  44,
+        "FechaHora":  "2026-05-02T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  9,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 06",
+        "IdEntrenador":  54,
+        "FechaHora":  "2026-05-14T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  10,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 07",
+        "IdEntrenador":  64,
+        "FechaHora":  "2026-05-26T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  11,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 08",
+        "IdEntrenador":  74,
+        "FechaHora":  "2026-06-07T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  12,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 09",
+        "IdEntrenador":  4,
+        "FechaHora":  "2026-06-19T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  13,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 10",
+        "IdEntrenador":  14,
+        "FechaHora":  "2026-07-01T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  14,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 11",
+        "IdEntrenador":  24,
+        "FechaHora":  "2026-07-13T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  15,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 12",
+        "IdEntrenador":  34,
+        "FechaHora":  "2026-07-25T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  16,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 13",
+        "IdEntrenador":  44,
+        "FechaHora":  "2026-08-06T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  17,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 14",
+        "IdEntrenador":  54,
+        "FechaHora":  "2026-08-18T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  18,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 15",
+        "IdEntrenador":  64,
+        "FechaHora":  "2026-08-30T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  19,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 16",
+        "IdEntrenador":  74,
+        "FechaHora":  "2026-09-11T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  20,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 17",
+        "IdEntrenador":  4,
+        "FechaHora":  "2026-09-23T08:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  true
+    },
+    {
+        "Id":  21,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 18",
+        "IdEntrenador":  14,
+        "FechaHora":  "2026-11-27T08:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  22,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 19",
+        "IdEntrenador":  24,
+        "FechaHora":  "2026-12-02T08:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  23,
+        "Nombre":  "Yoga",
+        "Descripcion":  "Sesión de Yoga - Demostración 20",
+        "IdEntrenador":  34,
+        "FechaHora":  "2026-12-07T08:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  24,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 01",
+        "IdEntrenador":  6,
+        "FechaHora":  "2026-03-16T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  25,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 02",
+        "IdEntrenador":  16,
+        "FechaHora":  "2026-03-28T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  26,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 03",
+        "IdEntrenador":  26,
+        "FechaHora":  "2026-04-09T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  27,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 04",
+        "IdEntrenador":  36,
+        "FechaHora":  "2026-04-21T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  28,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 05",
+        "IdEntrenador":  46,
+        "FechaHora":  "2026-05-03T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  29,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 06",
+        "IdEntrenador":  56,
+        "FechaHora":  "2026-05-15T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  30,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 07",
+        "IdEntrenador":  66,
+        "FechaHora":  "2026-05-27T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  31,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 08",
+        "IdEntrenador":  76,
+        "FechaHora":  "2026-06-08T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  32,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 09",
+        "IdEntrenador":  6,
+        "FechaHora":  "2026-06-20T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  33,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 10",
+        "IdEntrenador":  16,
+        "FechaHora":  "2026-07-02T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  34,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 11",
+        "IdEntrenador":  26,
+        "FechaHora":  "2026-07-14T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  35,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 12",
+        "IdEntrenador":  36,
+        "FechaHora":  "2026-07-26T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  36,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 13",
+        "IdEntrenador":  46,
+        "FechaHora":  "2026-08-07T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  37,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 14",
+        "IdEntrenador":  56,
+        "FechaHora":  "2026-08-19T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  38,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 15",
+        "IdEntrenador":  66,
+        "FechaHora":  "2026-08-31T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  39,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 16",
+        "IdEntrenador":  76,
+        "FechaHora":  "2026-09-12T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  40,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 17",
+        "IdEntrenador":  6,
+        "FechaHora":  "2026-09-24T10:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  true
+    },
+    {
+        "Id":  41,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 18",
+        "IdEntrenador":  16,
+        "FechaHora":  "2026-11-28T10:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  42,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 19",
+        "IdEntrenador":  26,
+        "FechaHora":  "2026-12-03T10:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  43,
+        "Nombre":  "Zumba",
+        "Descripcion":  "Sesión de Zumba - Demostración 20",
+        "IdEntrenador":  36,
+        "FechaHora":  "2026-12-08T10:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  44,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 01",
+        "IdEntrenador":  8,
+        "FechaHora":  "2026-03-17T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  45,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 02",
+        "IdEntrenador":  18,
+        "FechaHora":  "2026-03-29T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  46,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 03",
+        "IdEntrenador":  28,
+        "FechaHora":  "2026-04-10T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  47,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 04",
+        "IdEntrenador":  38,
+        "FechaHora":  "2026-04-22T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  48,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 05",
+        "IdEntrenador":  48,
+        "FechaHora":  "2026-05-04T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  49,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 06",
+        "IdEntrenador":  58,
+        "FechaHora":  "2026-05-16T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  50,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 07",
+        "IdEntrenador":  68,
+        "FechaHora":  "2026-05-28T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  51,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 08",
+        "IdEntrenador":  78,
+        "FechaHora":  "2026-06-09T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  52,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 09",
+        "IdEntrenador":  8,
+        "FechaHora":  "2026-06-21T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  53,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 10",
+        "IdEntrenador":  18,
+        "FechaHora":  "2026-07-03T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  54,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 11",
+        "IdEntrenador":  28,
+        "FechaHora":  "2026-07-15T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  55,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 12",
+        "IdEntrenador":  38,
+        "FechaHora":  "2026-07-27T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  56,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 13",
+        "IdEntrenador":  48,
+        "FechaHora":  "2026-08-08T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  57,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 14",
+        "IdEntrenador":  58,
+        "FechaHora":  "2026-08-20T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  58,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 15",
+        "IdEntrenador":  68,
+        "FechaHora":  "2026-09-01T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  59,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 16",
+        "IdEntrenador":  78,
+        "FechaHora":  "2026-09-13T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  60,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 17",
+        "IdEntrenador":  8,
+        "FechaHora":  "2026-09-25T12:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  true
+    },
+    {
+        "Id":  61,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 18",
+        "IdEntrenador":  18,
+        "FechaHora":  "2026-11-29T12:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  62,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 19",
+        "IdEntrenador":  28,
+        "FechaHora":  "2026-12-04T12:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  63,
+        "Nombre":  "Spinning",
+        "Descripcion":  "Sesión de Spinning - Demostración 20",
+        "IdEntrenador":  38,
+        "FechaHora":  "2026-12-09T12:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  64,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 01",
+        "IdEntrenador":  10,
+        "FechaHora":  "2026-03-18T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  65,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 02",
+        "IdEntrenador":  20,
+        "FechaHora":  "2026-03-30T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  66,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 03",
+        "IdEntrenador":  30,
+        "FechaHora":  "2026-04-11T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  67,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 04",
+        "IdEntrenador":  40,
+        "FechaHora":  "2026-04-23T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  68,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 05",
+        "IdEntrenador":  50,
+        "FechaHora":  "2026-05-05T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  69,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 06",
+        "IdEntrenador":  60,
+        "FechaHora":  "2026-05-17T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  70,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 07",
+        "IdEntrenador":  70,
+        "FechaHora":  "2026-05-29T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  71,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 08",
+        "IdEntrenador":  80,
+        "FechaHora":  "2026-06-10T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  72,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 09",
+        "IdEntrenador":  10,
+        "FechaHora":  "2026-06-22T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  73,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 10",
+        "IdEntrenador":  20,
+        "FechaHora":  "2026-07-04T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  74,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 11",
+        "IdEntrenador":  30,
+        "FechaHora":  "2026-07-16T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  75,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 12",
+        "IdEntrenador":  40,
+        "FechaHora":  "2026-07-28T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  76,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 13",
+        "IdEntrenador":  50,
+        "FechaHora":  "2026-08-09T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  77,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 14",
+        "IdEntrenador":  60,
+        "FechaHora":  "2026-08-21T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  78,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 15",
+        "IdEntrenador":  70,
+        "FechaHora":  "2026-09-02T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  79,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 16",
+        "IdEntrenador":  80,
+        "FechaHora":  "2026-09-14T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  80,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 17",
+        "IdEntrenador":  10,
+        "FechaHora":  "2026-09-26T14:00:00",
+        "Duracion":  60,
+        "CupoMaximo":  15,
+        "Cancelada":  true
+    },
+    {
+        "Id":  81,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 18",
+        "IdEntrenador":  20,
+        "FechaHora":  "2026-11-30T14:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  82,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 19",
+        "IdEntrenador":  30,
+        "FechaHora":  "2026-12-05T14:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  83,
+        "Nombre":  "CrossFit",
+        "Descripcion":  "Sesión de CrossFit - Demostración 20",
+        "IdEntrenador":  40,
+        "FechaHora":  "2026-12-10T14:00:00-06:00",
+        "Duracion":  60,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  84,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 01",
+        "IdEntrenador":  12,
+        "FechaHora":  "2026-03-19T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  85,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 02",
+        "IdEntrenador":  22,
+        "FechaHora":  "2026-03-31T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  86,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 03",
+        "IdEntrenador":  32,
+        "FechaHora":  "2026-04-12T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  87,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 04",
+        "IdEntrenador":  42,
+        "FechaHora":  "2026-04-24T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  88,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 05",
+        "IdEntrenador":  52,
+        "FechaHora":  "2026-05-06T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  89,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 06",
+        "IdEntrenador":  62,
+        "FechaHora":  "2026-05-18T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  90,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 07",
+        "IdEntrenador":  72,
+        "FechaHora":  "2026-05-30T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  91,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 08",
+        "IdEntrenador":  82,
+        "FechaHora":  "2026-06-11T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  92,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 09",
+        "IdEntrenador":  12,
+        "FechaHora":  "2026-06-23T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  93,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 10",
+        "IdEntrenador":  22,
+        "FechaHora":  "2026-07-05T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  94,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 11",
+        "IdEntrenador":  32,
+        "FechaHora":  "2026-07-17T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  95,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 12",
+        "IdEntrenador":  42,
+        "FechaHora":  "2026-07-29T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  96,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 13",
+        "IdEntrenador":  52,
+        "FechaHora":  "2026-08-10T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  15,
+        "Cancelada":  false
+    },
+    {
+        "Id":  97,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 14",
+        "IdEntrenador":  62,
+        "FechaHora":  "2026-08-22T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  98,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 15",
+        "IdEntrenador":  72,
+        "FechaHora":  "2026-09-03T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  99,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 16",
+        "IdEntrenador":  82,
+        "FechaHora":  "2026-09-15T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    },
+    {
+        "Id":  100,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 17",
+        "IdEntrenador":  12,
+        "FechaHora":  "2026-09-27T16:00:00",
+        "Duracion":  90,
+        "CupoMaximo":  15,
+        "Cancelada":  true
+    },
+    {
+        "Id":  101,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 18",
+        "IdEntrenador":  22,
+        "FechaHora":  "2026-12-01T16:00:00-06:00",
+        "Duracion":  90,
+        "CupoMaximo":  20,
+        "Cancelada":  false
+    },
+    {
+        "Id":  102,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 19",
+        "IdEntrenador":  32,
+        "FechaHora":  "2026-12-06T16:00:00-06:00",
+        "Duracion":  90,
+        "CupoMaximo":  25,
+        "Cancelada":  false
+    },
+    {
+        "Id":  103,
+        "Nombre":  "Gimnasio abierto",
+        "Descripcion":  "Sesión de Gimnasio abierto - Demostración 20",
+        "IdEntrenador":  42,
+        "FechaHora":  "2026-12-11T16:00:00-06:00",
+        "Duracion":  90,
+        "CupoMaximo":  30,
+        "Cancelada":  false
+    }
+]

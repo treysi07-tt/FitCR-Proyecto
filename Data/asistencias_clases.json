@@ -1,0 +1,1202 @@
+[
+    {
+        "Id":  2,
+        "IdClase":  4,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-15T08:05:00"
+    },
+    {
+        "Id":  3,
+        "IdClase":  4,
+        "IdCliente":  13,
+        "FechaAsistencia":  "2026-03-15T08:05:00"
+    },
+    {
+        "Id":  4,
+        "IdClase":  4,
+        "IdCliente":  14,
+        "FechaAsistencia":  "2026-03-15T08:05:00"
+    },
+    {
+        "Id":  5,
+        "IdClase":  5,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-27T08:05:00"
+    },
+    {
+        "Id":  6,
+        "IdClase":  5,
+        "IdCliente":  15,
+        "FechaAsistencia":  "2026-03-27T08:05:00"
+    },
+    {
+        "Id":  7,
+        "IdClase":  6,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-08T08:05:00"
+    },
+    {
+        "Id":  8,
+        "IdClase":  6,
+        "IdCliente":  17,
+        "FechaAsistencia":  "2026-04-08T08:05:00"
+    },
+    {
+        "Id":  9,
+        "IdClase":  6,
+        "IdCliente":  18,
+        "FechaAsistencia":  "2026-04-08T08:05:00"
+    },
+    {
+        "Id":  10,
+        "IdClase":  7,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-20T08:05:00"
+    },
+    {
+        "Id":  11,
+        "IdClase":  7,
+        "IdCliente":  19,
+        "FechaAsistencia":  "2026-04-20T08:05:00"
+    },
+    {
+        "Id":  12,
+        "IdClase":  8,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-02T08:05:00"
+    },
+    {
+        "Id":  13,
+        "IdClase":  8,
+        "IdCliente":  21,
+        "FechaAsistencia":  "2026-05-02T08:05:00"
+    },
+    {
+        "Id":  14,
+        "IdClase":  8,
+        "IdCliente":  22,
+        "FechaAsistencia":  "2026-05-02T08:05:00"
+    },
+    {
+        "Id":  15,
+        "IdClase":  9,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-14T08:05:00"
+    },
+    {
+        "Id":  16,
+        "IdClase":  9,
+        "IdCliente":  23,
+        "FechaAsistencia":  "2026-05-14T08:05:00"
+    },
+    {
+        "Id":  17,
+        "IdClase":  10,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-26T08:05:00"
+    },
+    {
+        "Id":  18,
+        "IdClase":  10,
+        "IdCliente":  25,
+        "FechaAsistencia":  "2026-05-26T08:05:00"
+    },
+    {
+        "Id":  19,
+        "IdClase":  10,
+        "IdCliente":  26,
+        "FechaAsistencia":  "2026-05-26T08:05:00"
+    },
+    {
+        "Id":  20,
+        "IdClase":  11,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-07T08:05:00"
+    },
+    {
+        "Id":  21,
+        "IdClase":  11,
+        "IdCliente":  27,
+        "FechaAsistencia":  "2026-06-07T08:05:00"
+    },
+    {
+        "Id":  22,
+        "IdClase":  12,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-19T08:05:00"
+    },
+    {
+        "Id":  23,
+        "IdClase":  12,
+        "IdCliente":  29,
+        "FechaAsistencia":  "2026-06-19T08:05:00"
+    },
+    {
+        "Id":  24,
+        "IdClase":  12,
+        "IdCliente":  30,
+        "FechaAsistencia":  "2026-06-19T08:05:00"
+    },
+    {
+        "Id":  25,
+        "IdClase":  13,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-01T08:05:00"
+    },
+    {
+        "Id":  26,
+        "IdClase":  13,
+        "IdCliente":  31,
+        "FechaAsistencia":  "2026-07-01T08:05:00"
+    },
+    {
+        "Id":  27,
+        "IdClase":  14,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-13T08:05:00"
+    },
+    {
+        "Id":  28,
+        "IdClase":  14,
+        "IdCliente":  33,
+        "FechaAsistencia":  "2026-07-13T08:05:00"
+    },
+    {
+        "Id":  29,
+        "IdClase":  14,
+        "IdCliente":  34,
+        "FechaAsistencia":  "2026-07-13T08:05:00"
+    },
+    {
+        "Id":  30,
+        "IdClase":  15,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-25T08:05:00"
+    },
+    {
+        "Id":  31,
+        "IdClase":  15,
+        "IdCliente":  35,
+        "FechaAsistencia":  "2026-07-25T08:05:00"
+    },
+    {
+        "Id":  32,
+        "IdClase":  16,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-06T08:05:00"
+    },
+    {
+        "Id":  33,
+        "IdClase":  16,
+        "IdCliente":  37,
+        "FechaAsistencia":  "2026-08-06T08:05:00"
+    },
+    {
+        "Id":  34,
+        "IdClase":  16,
+        "IdCliente":  38,
+        "FechaAsistencia":  "2026-08-06T08:05:00"
+    },
+    {
+        "Id":  35,
+        "IdClase":  17,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-18T08:05:00"
+    },
+    {
+        "Id":  36,
+        "IdClase":  17,
+        "IdCliente":  39,
+        "FechaAsistencia":  "2026-08-18T08:05:00"
+    },
+    {
+        "Id":  37,
+        "IdClase":  18,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-30T08:05:00"
+    },
+    {
+        "Id":  38,
+        "IdClase":  18,
+        "IdCliente":  41,
+        "FechaAsistencia":  "2026-08-30T08:05:00"
+    },
+    {
+        "Id":  39,
+        "IdClase":  18,
+        "IdCliente":  42,
+        "FechaAsistencia":  "2026-08-30T08:05:00"
+    },
+    {
+        "Id":  40,
+        "IdClase":  19,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-11T08:05:00"
+    },
+    {
+        "Id":  41,
+        "IdClase":  19,
+        "IdCliente":  43,
+        "FechaAsistencia":  "2026-09-11T08:05:00"
+    },
+    {
+        "Id":  42,
+        "IdClase":  24,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-16T10:05:00"
+    },
+    {
+        "Id":  43,
+        "IdClase":  24,
+        "IdCliente":  53,
+        "FechaAsistencia":  "2026-03-16T10:05:00"
+    },
+    {
+        "Id":  44,
+        "IdClase":  24,
+        "IdCliente":  54,
+        "FechaAsistencia":  "2026-03-16T10:05:00"
+    },
+    {
+        "Id":  45,
+        "IdClase":  25,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-28T10:05:00"
+    },
+    {
+        "Id":  46,
+        "IdClase":  25,
+        "IdCliente":  55,
+        "FechaAsistencia":  "2026-03-28T10:05:00"
+    },
+    {
+        "Id":  47,
+        "IdClase":  26,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-09T10:05:00"
+    },
+    {
+        "Id":  48,
+        "IdClase":  26,
+        "IdCliente":  57,
+        "FechaAsistencia":  "2026-04-09T10:05:00"
+    },
+    {
+        "Id":  49,
+        "IdClase":  26,
+        "IdCliente":  58,
+        "FechaAsistencia":  "2026-04-09T10:05:00"
+    },
+    {
+        "Id":  50,
+        "IdClase":  27,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-21T10:05:00"
+    },
+    {
+        "Id":  51,
+        "IdClase":  27,
+        "IdCliente":  59,
+        "FechaAsistencia":  "2026-04-21T10:05:00"
+    },
+    {
+        "Id":  52,
+        "IdClase":  28,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-03T10:05:00"
+    },
+    {
+        "Id":  53,
+        "IdClase":  28,
+        "IdCliente":  61,
+        "FechaAsistencia":  "2026-05-03T10:05:00"
+    },
+    {
+        "Id":  54,
+        "IdClase":  28,
+        "IdCliente":  13,
+        "FechaAsistencia":  "2026-05-03T10:05:00"
+    },
+    {
+        "Id":  55,
+        "IdClase":  29,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-15T10:05:00"
+    },
+    {
+        "Id":  56,
+        "IdClase":  29,
+        "IdCliente":  14,
+        "FechaAsistencia":  "2026-05-15T10:05:00"
+    },
+    {
+        "Id":  57,
+        "IdClase":  30,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-27T10:05:00"
+    },
+    {
+        "Id":  58,
+        "IdClase":  30,
+        "IdCliente":  16,
+        "FechaAsistencia":  "2026-05-27T10:05:00"
+    },
+    {
+        "Id":  59,
+        "IdClase":  30,
+        "IdCliente":  17,
+        "FechaAsistencia":  "2026-05-27T10:05:00"
+    },
+    {
+        "Id":  60,
+        "IdClase":  31,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-08T10:05:00"
+    },
+    {
+        "Id":  61,
+        "IdClase":  31,
+        "IdCliente":  18,
+        "FechaAsistencia":  "2026-06-08T10:05:00"
+    },
+    {
+        "Id":  62,
+        "IdClase":  32,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-20T10:05:00"
+    },
+    {
+        "Id":  63,
+        "IdClase":  32,
+        "IdCliente":  20,
+        "FechaAsistencia":  "2026-06-20T10:05:00"
+    },
+    {
+        "Id":  64,
+        "IdClase":  32,
+        "IdCliente":  21,
+        "FechaAsistencia":  "2026-06-20T10:05:00"
+    },
+    {
+        "Id":  65,
+        "IdClase":  33,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-02T10:05:00"
+    },
+    {
+        "Id":  66,
+        "IdClase":  33,
+        "IdCliente":  22,
+        "FechaAsistencia":  "2026-07-02T10:05:00"
+    },
+    {
+        "Id":  67,
+        "IdClase":  34,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-14T10:05:00"
+    },
+    {
+        "Id":  68,
+        "IdClase":  34,
+        "IdCliente":  24,
+        "FechaAsistencia":  "2026-07-14T10:05:00"
+    },
+    {
+        "Id":  69,
+        "IdClase":  34,
+        "IdCliente":  25,
+        "FechaAsistencia":  "2026-07-14T10:05:00"
+    },
+    {
+        "Id":  70,
+        "IdClase":  35,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-26T10:05:00"
+    },
+    {
+        "Id":  71,
+        "IdClase":  35,
+        "IdCliente":  26,
+        "FechaAsistencia":  "2026-07-26T10:05:00"
+    },
+    {
+        "Id":  72,
+        "IdClase":  36,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-07T10:05:00"
+    },
+    {
+        "Id":  73,
+        "IdClase":  36,
+        "IdCliente":  28,
+        "FechaAsistencia":  "2026-08-07T10:05:00"
+    },
+    {
+        "Id":  74,
+        "IdClase":  36,
+        "IdCliente":  29,
+        "FechaAsistencia":  "2026-08-07T10:05:00"
+    },
+    {
+        "Id":  75,
+        "IdClase":  37,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-19T10:05:00"
+    },
+    {
+        "Id":  76,
+        "IdClase":  37,
+        "IdCliente":  30,
+        "FechaAsistencia":  "2026-08-19T10:05:00"
+    },
+    {
+        "Id":  77,
+        "IdClase":  38,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-31T10:05:00"
+    },
+    {
+        "Id":  78,
+        "IdClase":  38,
+        "IdCliente":  32,
+        "FechaAsistencia":  "2026-08-31T10:05:00"
+    },
+    {
+        "Id":  79,
+        "IdClase":  38,
+        "IdCliente":  33,
+        "FechaAsistencia":  "2026-08-31T10:05:00"
+    },
+    {
+        "Id":  80,
+        "IdClase":  39,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-12T10:05:00"
+    },
+    {
+        "Id":  81,
+        "IdClase":  39,
+        "IdCliente":  34,
+        "FechaAsistencia":  "2026-09-12T10:05:00"
+    },
+    {
+        "Id":  82,
+        "IdClase":  44,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-17T12:05:00"
+    },
+    {
+        "Id":  83,
+        "IdClase":  44,
+        "IdCliente":  44,
+        "FechaAsistencia":  "2026-03-17T12:05:00"
+    },
+    {
+        "Id":  84,
+        "IdClase":  44,
+        "IdCliente":  45,
+        "FechaAsistencia":  "2026-03-17T12:05:00"
+    },
+    {
+        "Id":  85,
+        "IdClase":  45,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-29T12:05:00"
+    },
+    {
+        "Id":  86,
+        "IdClase":  45,
+        "IdCliente":  46,
+        "FechaAsistencia":  "2026-03-29T12:05:00"
+    },
+    {
+        "Id":  87,
+        "IdClase":  46,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-10T12:05:00"
+    },
+    {
+        "Id":  88,
+        "IdClase":  46,
+        "IdCliente":  48,
+        "FechaAsistencia":  "2026-04-10T12:05:00"
+    },
+    {
+        "Id":  89,
+        "IdClase":  46,
+        "IdCliente":  49,
+        "FechaAsistencia":  "2026-04-10T12:05:00"
+    },
+    {
+        "Id":  90,
+        "IdClase":  47,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-22T12:05:00"
+    },
+    {
+        "Id":  91,
+        "IdClase":  47,
+        "IdCliente":  50,
+        "FechaAsistencia":  "2026-04-22T12:05:00"
+    },
+    {
+        "Id":  92,
+        "IdClase":  48,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-04T12:05:00"
+    },
+    {
+        "Id":  93,
+        "IdClase":  48,
+        "IdCliente":  52,
+        "FechaAsistencia":  "2026-05-04T12:05:00"
+    },
+    {
+        "Id":  94,
+        "IdClase":  48,
+        "IdCliente":  53,
+        "FechaAsistencia":  "2026-05-04T12:05:00"
+    },
+    {
+        "Id":  95,
+        "IdClase":  49,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-16T12:05:00"
+    },
+    {
+        "Id":  96,
+        "IdClase":  49,
+        "IdCliente":  54,
+        "FechaAsistencia":  "2026-05-16T12:05:00"
+    },
+    {
+        "Id":  97,
+        "IdClase":  50,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-28T12:05:00"
+    },
+    {
+        "Id":  98,
+        "IdClase":  50,
+        "IdCliente":  56,
+        "FechaAsistencia":  "2026-05-28T12:05:00"
+    },
+    {
+        "Id":  99,
+        "IdClase":  50,
+        "IdCliente":  57,
+        "FechaAsistencia":  "2026-05-28T12:05:00"
+    },
+    {
+        "Id":  100,
+        "IdClase":  51,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-09T12:05:00"
+    },
+    {
+        "Id":  101,
+        "IdClase":  51,
+        "IdCliente":  58,
+        "FechaAsistencia":  "2026-06-09T12:05:00"
+    },
+    {
+        "Id":  102,
+        "IdClase":  52,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-21T12:05:00"
+    },
+    {
+        "Id":  103,
+        "IdClase":  52,
+        "IdCliente":  60,
+        "FechaAsistencia":  "2026-06-21T12:05:00"
+    },
+    {
+        "Id":  104,
+        "IdClase":  52,
+        "IdCliente":  61,
+        "FechaAsistencia":  "2026-06-21T12:05:00"
+    },
+    {
+        "Id":  105,
+        "IdClase":  53,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-03T12:05:00"
+    },
+    {
+        "Id":  106,
+        "IdClase":  53,
+        "IdCliente":  13,
+        "FechaAsistencia":  "2026-07-03T12:05:00"
+    },
+    {
+        "Id":  107,
+        "IdClase":  54,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-15T12:05:00"
+    },
+    {
+        "Id":  108,
+        "IdClase":  54,
+        "IdCliente":  15,
+        "FechaAsistencia":  "2026-07-15T12:05:00"
+    },
+    {
+        "Id":  109,
+        "IdClase":  54,
+        "IdCliente":  16,
+        "FechaAsistencia":  "2026-07-15T12:05:00"
+    },
+    {
+        "Id":  110,
+        "IdClase":  55,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-27T12:05:00"
+    },
+    {
+        "Id":  111,
+        "IdClase":  55,
+        "IdCliente":  17,
+        "FechaAsistencia":  "2026-07-27T12:05:00"
+    },
+    {
+        "Id":  112,
+        "IdClase":  56,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-08T12:05:00"
+    },
+    {
+        "Id":  113,
+        "IdClase":  56,
+        "IdCliente":  19,
+        "FechaAsistencia":  "2026-08-08T12:05:00"
+    },
+    {
+        "Id":  114,
+        "IdClase":  56,
+        "IdCliente":  20,
+        "FechaAsistencia":  "2026-08-08T12:05:00"
+    },
+    {
+        "Id":  115,
+        "IdClase":  57,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-20T12:05:00"
+    },
+    {
+        "Id":  116,
+        "IdClase":  57,
+        "IdCliente":  21,
+        "FechaAsistencia":  "2026-08-20T12:05:00"
+    },
+    {
+        "Id":  117,
+        "IdClase":  58,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-01T12:05:00"
+    },
+    {
+        "Id":  118,
+        "IdClase":  58,
+        "IdCliente":  23,
+        "FechaAsistencia":  "2026-09-01T12:05:00"
+    },
+    {
+        "Id":  119,
+        "IdClase":  58,
+        "IdCliente":  24,
+        "FechaAsistencia":  "2026-09-01T12:05:00"
+    },
+    {
+        "Id":  120,
+        "IdClase":  59,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-13T12:05:00"
+    },
+    {
+        "Id":  121,
+        "IdClase":  59,
+        "IdCliente":  25,
+        "FechaAsistencia":  "2026-09-13T12:05:00"
+    },
+    {
+        "Id":  122,
+        "IdClase":  64,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-18T14:05:00"
+    },
+    {
+        "Id":  123,
+        "IdClase":  64,
+        "IdCliente":  35,
+        "FechaAsistencia":  "2026-03-18T14:05:00"
+    },
+    {
+        "Id":  124,
+        "IdClase":  64,
+        "IdCliente":  36,
+        "FechaAsistencia":  "2026-03-18T14:05:00"
+    },
+    {
+        "Id":  125,
+        "IdClase":  65,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-30T14:05:00"
+    },
+    {
+        "Id":  126,
+        "IdClase":  65,
+        "IdCliente":  37,
+        "FechaAsistencia":  "2026-03-30T14:05:00"
+    },
+    {
+        "Id":  127,
+        "IdClase":  66,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-11T14:05:00"
+    },
+    {
+        "Id":  128,
+        "IdClase":  66,
+        "IdCliente":  39,
+        "FechaAsistencia":  "2026-04-11T14:05:00"
+    },
+    {
+        "Id":  129,
+        "IdClase":  66,
+        "IdCliente":  40,
+        "FechaAsistencia":  "2026-04-11T14:05:00"
+    },
+    {
+        "Id":  130,
+        "IdClase":  67,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-23T14:05:00"
+    },
+    {
+        "Id":  131,
+        "IdClase":  67,
+        "IdCliente":  41,
+        "FechaAsistencia":  "2026-04-23T14:05:00"
+    },
+    {
+        "Id":  132,
+        "IdClase":  68,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-05T14:05:00"
+    },
+    {
+        "Id":  133,
+        "IdClase":  68,
+        "IdCliente":  43,
+        "FechaAsistencia":  "2026-05-05T14:05:00"
+    },
+    {
+        "Id":  134,
+        "IdClase":  68,
+        "IdCliente":  44,
+        "FechaAsistencia":  "2026-05-05T14:05:00"
+    },
+    {
+        "Id":  135,
+        "IdClase":  69,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-17T14:05:00"
+    },
+    {
+        "Id":  136,
+        "IdClase":  69,
+        "IdCliente":  45,
+        "FechaAsistencia":  "2026-05-17T14:05:00"
+    },
+    {
+        "Id":  137,
+        "IdClase":  70,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-29T14:05:00"
+    },
+    {
+        "Id":  138,
+        "IdClase":  70,
+        "IdCliente":  47,
+        "FechaAsistencia":  "2026-05-29T14:05:00"
+    },
+    {
+        "Id":  139,
+        "IdClase":  70,
+        "IdCliente":  48,
+        "FechaAsistencia":  "2026-05-29T14:05:00"
+    },
+    {
+        "Id":  140,
+        "IdClase":  71,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-10T14:05:00"
+    },
+    {
+        "Id":  141,
+        "IdClase":  71,
+        "IdCliente":  49,
+        "FechaAsistencia":  "2026-06-10T14:05:00"
+    },
+    {
+        "Id":  142,
+        "IdClase":  72,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-22T14:05:00"
+    },
+    {
+        "Id":  143,
+        "IdClase":  72,
+        "IdCliente":  51,
+        "FechaAsistencia":  "2026-06-22T14:05:00"
+    },
+    {
+        "Id":  144,
+        "IdClase":  72,
+        "IdCliente":  52,
+        "FechaAsistencia":  "2026-06-22T14:05:00"
+    },
+    {
+        "Id":  145,
+        "IdClase":  73,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-04T14:05:00"
+    },
+    {
+        "Id":  146,
+        "IdClase":  73,
+        "IdCliente":  53,
+        "FechaAsistencia":  "2026-07-04T14:05:00"
+    },
+    {
+        "Id":  147,
+        "IdClase":  74,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-16T14:05:00"
+    },
+    {
+        "Id":  148,
+        "IdClase":  74,
+        "IdCliente":  55,
+        "FechaAsistencia":  "2026-07-16T14:05:00"
+    },
+    {
+        "Id":  149,
+        "IdClase":  74,
+        "IdCliente":  56,
+        "FechaAsistencia":  "2026-07-16T14:05:00"
+    },
+    {
+        "Id":  150,
+        "IdClase":  75,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-28T14:05:00"
+    },
+    {
+        "Id":  151,
+        "IdClase":  75,
+        "IdCliente":  57,
+        "FechaAsistencia":  "2026-07-28T14:05:00"
+    },
+    {
+        "Id":  152,
+        "IdClase":  76,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-09T14:05:00"
+    },
+    {
+        "Id":  153,
+        "IdClase":  76,
+        "IdCliente":  59,
+        "FechaAsistencia":  "2026-08-09T14:05:00"
+    },
+    {
+        "Id":  154,
+        "IdClase":  76,
+        "IdCliente":  60,
+        "FechaAsistencia":  "2026-08-09T14:05:00"
+    },
+    {
+        "Id":  155,
+        "IdClase":  77,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-21T14:05:00"
+    },
+    {
+        "Id":  156,
+        "IdClase":  77,
+        "IdCliente":  61,
+        "FechaAsistencia":  "2026-08-21T14:05:00"
+    },
+    {
+        "Id":  157,
+        "IdClase":  78,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-02T14:05:00"
+    },
+    {
+        "Id":  158,
+        "IdClase":  78,
+        "IdCliente":  14,
+        "FechaAsistencia":  "2026-09-02T14:05:00"
+    },
+    {
+        "Id":  159,
+        "IdClase":  78,
+        "IdCliente":  15,
+        "FechaAsistencia":  "2026-09-02T14:05:00"
+    },
+    {
+        "Id":  160,
+        "IdClase":  79,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-14T14:05:00"
+    },
+    {
+        "Id":  161,
+        "IdClase":  79,
+        "IdCliente":  16,
+        "FechaAsistencia":  "2026-09-14T14:05:00"
+    },
+    {
+        "Id":  162,
+        "IdClase":  84,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-19T16:05:00"
+    },
+    {
+        "Id":  163,
+        "IdClase":  84,
+        "IdCliente":  26,
+        "FechaAsistencia":  "2026-03-19T16:05:00"
+    },
+    {
+        "Id":  164,
+        "IdClase":  84,
+        "IdCliente":  27,
+        "FechaAsistencia":  "2026-03-19T16:05:00"
+    },
+    {
+        "Id":  165,
+        "IdClase":  85,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-03-31T16:05:00"
+    },
+    {
+        "Id":  166,
+        "IdClase":  85,
+        "IdCliente":  28,
+        "FechaAsistencia":  "2026-03-31T16:05:00"
+    },
+    {
+        "Id":  167,
+        "IdClase":  86,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-12T16:05:00"
+    },
+    {
+        "Id":  168,
+        "IdClase":  86,
+        "IdCliente":  30,
+        "FechaAsistencia":  "2026-04-12T16:05:00"
+    },
+    {
+        "Id":  169,
+        "IdClase":  86,
+        "IdCliente":  31,
+        "FechaAsistencia":  "2026-04-12T16:05:00"
+    },
+    {
+        "Id":  170,
+        "IdClase":  87,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-04-24T16:05:00"
+    },
+    {
+        "Id":  171,
+        "IdClase":  87,
+        "IdCliente":  32,
+        "FechaAsistencia":  "2026-04-24T16:05:00"
+    },
+    {
+        "Id":  172,
+        "IdClase":  88,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-06T16:05:00"
+    },
+    {
+        "Id":  173,
+        "IdClase":  88,
+        "IdCliente":  34,
+        "FechaAsistencia":  "2026-05-06T16:05:00"
+    },
+    {
+        "Id":  174,
+        "IdClase":  88,
+        "IdCliente":  35,
+        "FechaAsistencia":  "2026-05-06T16:05:00"
+    },
+    {
+        "Id":  175,
+        "IdClase":  89,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-18T16:05:00"
+    },
+    {
+        "Id":  176,
+        "IdClase":  89,
+        "IdCliente":  36,
+        "FechaAsistencia":  "2026-05-18T16:05:00"
+    },
+    {
+        "Id":  177,
+        "IdClase":  90,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-05-30T16:05:00"
+    },
+    {
+        "Id":  178,
+        "IdClase":  90,
+        "IdCliente":  38,
+        "FechaAsistencia":  "2026-05-30T16:05:00"
+    },
+    {
+        "Id":  179,
+        "IdClase":  90,
+        "IdCliente":  39,
+        "FechaAsistencia":  "2026-05-30T16:05:00"
+    },
+    {
+        "Id":  180,
+        "IdClase":  91,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-11T16:05:00"
+    },
+    {
+        "Id":  181,
+        "IdClase":  91,
+        "IdCliente":  40,
+        "FechaAsistencia":  "2026-06-11T16:05:00"
+    },
+    {
+        "Id":  182,
+        "IdClase":  92,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-06-23T16:05:00"
+    },
+    {
+        "Id":  183,
+        "IdClase":  92,
+        "IdCliente":  42,
+        "FechaAsistencia":  "2026-06-23T16:05:00"
+    },
+    {
+        "Id":  184,
+        "IdClase":  92,
+        "IdCliente":  43,
+        "FechaAsistencia":  "2026-06-23T16:05:00"
+    },
+    {
+        "Id":  185,
+        "IdClase":  93,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-05T16:05:00"
+    },
+    {
+        "Id":  186,
+        "IdClase":  93,
+        "IdCliente":  44,
+        "FechaAsistencia":  "2026-07-05T16:05:00"
+    },
+    {
+        "Id":  187,
+        "IdClase":  94,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-17T16:05:00"
+    },
+    {
+        "Id":  188,
+        "IdClase":  94,
+        "IdCliente":  46,
+        "FechaAsistencia":  "2026-07-17T16:05:00"
+    },
+    {
+        "Id":  189,
+        "IdClase":  94,
+        "IdCliente":  47,
+        "FechaAsistencia":  "2026-07-17T16:05:00"
+    },
+    {
+        "Id":  190,
+        "IdClase":  95,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-07-29T16:05:00"
+    },
+    {
+        "Id":  191,
+        "IdClase":  95,
+        "IdCliente":  48,
+        "FechaAsistencia":  "2026-07-29T16:05:00"
+    },
+    {
+        "Id":  192,
+        "IdClase":  96,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-10T16:05:00"
+    },
+    {
+        "Id":  193,
+        "IdClase":  96,
+        "IdCliente":  50,
+        "FechaAsistencia":  "2026-08-10T16:05:00"
+    },
+    {
+        "Id":  194,
+        "IdClase":  96,
+        "IdCliente":  51,
+        "FechaAsistencia":  "2026-08-10T16:05:00"
+    },
+    {
+        "Id":  195,
+        "IdClase":  97,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-08-22T16:05:00"
+    },
+    {
+        "Id":  196,
+        "IdClase":  97,
+        "IdCliente":  52,
+        "FechaAsistencia":  "2026-08-22T16:05:00"
+    },
+    {
+        "Id":  197,
+        "IdClase":  98,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-03T16:05:00"
+    },
+    {
+        "Id":  198,
+        "IdClase":  98,
+        "IdCliente":  54,
+        "FechaAsistencia":  "2026-09-03T16:05:00"
+    },
+    {
+        "Id":  199,
+        "IdClase":  98,
+        "IdCliente":  55,
+        "FechaAsistencia":  "2026-09-03T16:05:00"
+    },
+    {
+        "Id":  200,
+        "IdClase":  99,
+        "IdCliente":  12,
+        "FechaAsistencia":  "2026-09-15T16:05:00"
+    },
+    {
+        "Id":  201,
+        "IdClase":  99,
+        "IdCliente":  56,
+        "FechaAsistencia":  "2026-09-15T16:05:00"
+    }
+]

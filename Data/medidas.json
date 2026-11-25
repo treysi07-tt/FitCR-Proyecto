@@ -1,0 +1,2402 @@
+[
+    {
+        "Id":  7,
+        "IdCliente":  12,
+        "Fecha":  "2026-01-05T00:00:00",
+        "Peso":  99.68,
+        "Estatura":  1.91,
+        "IMC":  27.32
+    },
+    {
+        "Id":  8,
+        "IdCliente":  12,
+        "Fecha":  "2026-02-05T00:00:00",
+        "Peso":  98.87,
+        "Estatura":  1.91,
+        "IMC":  27.1
+    },
+    {
+        "Id":  9,
+        "IdCliente":  12,
+        "Fecha":  "2026-03-05T00:00:00",
+        "Peso":  98.06,
+        "Estatura":  1.91,
+        "IMC":  26.88
+    },
+    {
+        "Id":  10,
+        "IdCliente":  12,
+        "Fecha":  "2026-04-05T00:00:00",
+        "Peso":  97.25,
+        "Estatura":  1.91,
+        "IMC":  26.66
+    },
+    {
+        "Id":  11,
+        "IdCliente":  12,
+        "Fecha":  "2026-05-05T00:00:00",
+        "Peso":  96.44,
+        "Estatura":  1.91,
+        "IMC":  26.44
+    },
+    {
+        "Id":  12,
+        "IdCliente":  12,
+        "Fecha":  "2026-06-05T00:00:00",
+        "Peso":  95.63,
+        "Estatura":  1.91,
+        "IMC":  26.21
+    },
+    {
+        "Id":  13,
+        "IdCliente":  13,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  68.17,
+        "Estatura":  1.91,
+        "IMC":  18.69
+    },
+    {
+        "Id":  14,
+        "IdCliente":  13,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  67.76,
+        "Estatura":  1.91,
+        "IMC":  18.57
+    },
+    {
+        "Id":  15,
+        "IdCliente":  13,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  67.35,
+        "Estatura":  1.91,
+        "IMC":  18.46
+    },
+    {
+        "Id":  16,
+        "IdCliente":  13,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  66.94,
+        "Estatura":  1.91,
+        "IMC":  18.35
+    },
+    {
+        "Id":  17,
+        "IdCliente":  13,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  66.53,
+        "Estatura":  1.91,
+        "IMC":  18.24
+    },
+    {
+        "Id":  18,
+        "IdCliente":  13,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  66.12,
+        "Estatura":  1.91,
+        "IMC":  18.12
+    },
+    {
+        "Id":  19,
+        "IdCliente":  14,
+        "Fecha":  "2026-01-07T00:00:00",
+        "Peso":  65.49,
+        "Estatura":  1.73,
+        "IMC":  21.88
+    },
+    {
+        "Id":  20,
+        "IdCliente":  14,
+        "Fecha":  "2026-02-07T00:00:00",
+        "Peso":  65.18,
+        "Estatura":  1.73,
+        "IMC":  21.78
+    },
+    {
+        "Id":  21,
+        "IdCliente":  14,
+        "Fecha":  "2026-03-07T00:00:00",
+        "Peso":  64.87,
+        "Estatura":  1.73,
+        "IMC":  21.67
+    },
+    {
+        "Id":  22,
+        "IdCliente":  14,
+        "Fecha":  "2026-04-07T00:00:00",
+        "Peso":  64.56,
+        "Estatura":  1.73,
+        "IMC":  21.57
+    },
+    {
+        "Id":  23,
+        "IdCliente":  14,
+        "Fecha":  "2026-05-07T00:00:00",
+        "Peso":  64.25,
+        "Estatura":  1.73,
+        "IMC":  21.47
+    },
+    {
+        "Id":  24,
+        "IdCliente":  14,
+        "Fecha":  "2026-06-07T00:00:00",
+        "Peso":  63.94,
+        "Estatura":  1.73,
+        "IMC":  21.36
+    },
+    {
+        "Id":  25,
+        "IdCliente":  15,
+        "Fecha":  "2026-02-18T00:00:00",
+        "Peso":  95.01,
+        "Estatura":  1.68,
+        "IMC":  33.66
+    },
+    {
+        "Id":  26,
+        "IdCliente":  15,
+        "Fecha":  "2026-03-18T00:00:00",
+        "Peso":  94.27,
+        "Estatura":  1.68,
+        "IMC":  33.4
+    },
+    {
+        "Id":  27,
+        "IdCliente":  15,
+        "Fecha":  "2026-04-18T00:00:00",
+        "Peso":  93.53,
+        "Estatura":  1.68,
+        "IMC":  33.14
+    },
+    {
+        "Id":  28,
+        "IdCliente":  15,
+        "Fecha":  "2026-05-18T00:00:00",
+        "Peso":  92.79,
+        "Estatura":  1.68,
+        "IMC":  32.88
+    },
+    {
+        "Id":  29,
+        "IdCliente":  15,
+        "Fecha":  "2026-06-18T00:00:00",
+        "Peso":  92.05,
+        "Estatura":  1.68,
+        "IMC":  32.61
+    },
+    {
+        "Id":  30,
+        "IdCliente":  15,
+        "Fecha":  "2026-07-18T00:00:00",
+        "Peso":  91.31,
+        "Estatura":  1.68,
+        "IMC":  32.35
+    },
+    {
+        "Id":  31,
+        "IdCliente":  16,
+        "Fecha":  "2026-02-14T00:00:00",
+        "Peso":  50.67,
+        "Estatura":  1.57,
+        "IMC":  20.56
+    },
+    {
+        "Id":  32,
+        "IdCliente":  16,
+        "Fecha":  "2026-03-14T00:00:00",
+        "Peso":  50.18,
+        "Estatura":  1.57,
+        "IMC":  20.36
+    },
+    {
+        "Id":  33,
+        "IdCliente":  16,
+        "Fecha":  "2026-04-14T00:00:00",
+        "Peso":  49.69,
+        "Estatura":  1.57,
+        "IMC":  20.16
+    },
+    {
+        "Id":  34,
+        "IdCliente":  16,
+        "Fecha":  "2026-05-14T00:00:00",
+        "Peso":  49.2,
+        "Estatura":  1.57,
+        "IMC":  19.96
+    },
+    {
+        "Id":  35,
+        "IdCliente":  16,
+        "Fecha":  "2026-06-14T00:00:00",
+        "Peso":  48.71,
+        "Estatura":  1.57,
+        "IMC":  19.76
+    },
+    {
+        "Id":  36,
+        "IdCliente":  16,
+        "Fecha":  "2026-07-14T00:00:00",
+        "Peso":  48.22,
+        "Estatura":  1.57,
+        "IMC":  19.56
+    },
+    {
+        "Id":  37,
+        "IdCliente":  17,
+        "Fecha":  "2026-02-03T00:00:00",
+        "Peso":  89.08,
+        "Estatura":  1.54,
+        "IMC":  37.56
+    },
+    {
+        "Id":  38,
+        "IdCliente":  17,
+        "Fecha":  "2026-03-03T00:00:00",
+        "Peso":  88.29,
+        "Estatura":  1.54,
+        "IMC":  37.23
+    },
+    {
+        "Id":  39,
+        "IdCliente":  17,
+        "Fecha":  "2026-04-03T00:00:00",
+        "Peso":  87.5,
+        "Estatura":  1.54,
+        "IMC":  36.89
+    },
+    {
+        "Id":  40,
+        "IdCliente":  17,
+        "Fecha":  "2026-05-03T00:00:00",
+        "Peso":  86.71,
+        "Estatura":  1.54,
+        "IMC":  36.56
+    },
+    {
+        "Id":  41,
+        "IdCliente":  17,
+        "Fecha":  "2026-06-03T00:00:00",
+        "Peso":  85.92,
+        "Estatura":  1.54,
+        "IMC":  36.23
+    },
+    {
+        "Id":  42,
+        "IdCliente":  17,
+        "Fecha":  "2026-07-03T00:00:00",
+        "Peso":  85.13,
+        "Estatura":  1.54,
+        "IMC":  35.9
+    },
+    {
+        "Id":  43,
+        "IdCliente":  18,
+        "Fecha":  "2026-02-05T00:00:00",
+        "Peso":  66.32,
+        "Estatura":  1.89,
+        "IMC":  18.57
+    },
+    {
+        "Id":  44,
+        "IdCliente":  18,
+        "Fecha":  "2026-03-05T00:00:00",
+        "Peso":  66.01,
+        "Estatura":  1.89,
+        "IMC":  18.48
+    },
+    {
+        "Id":  45,
+        "IdCliente":  18,
+        "Fecha":  "2026-04-05T00:00:00",
+        "Peso":  65.7,
+        "Estatura":  1.89,
+        "IMC":  18.39
+    },
+    {
+        "Id":  46,
+        "IdCliente":  18,
+        "Fecha":  "2026-05-05T00:00:00",
+        "Peso":  65.39,
+        "Estatura":  1.89,
+        "IMC":  18.31
+    },
+    {
+        "Id":  47,
+        "IdCliente":  18,
+        "Fecha":  "2026-06-05T00:00:00",
+        "Peso":  65.08,
+        "Estatura":  1.89,
+        "IMC":  18.22
+    },
+    {
+        "Id":  48,
+        "IdCliente":  18,
+        "Fecha":  "2026-07-05T00:00:00",
+        "Peso":  64.77,
+        "Estatura":  1.89,
+        "IMC":  18.13
+    },
+    {
+        "Id":  49,
+        "IdCliente":  19,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  98.56,
+        "Estatura":  1.78,
+        "IMC":  31.11
+    },
+    {
+        "Id":  50,
+        "IdCliente":  19,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  98.01,
+        "Estatura":  1.78,
+        "IMC":  30.93
+    },
+    {
+        "Id":  51,
+        "IdCliente":  19,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  97.46,
+        "Estatura":  1.78,
+        "IMC":  30.76
+    },
+    {
+        "Id":  52,
+        "IdCliente":  19,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  96.91,
+        "Estatura":  1.78,
+        "IMC":  30.59
+    },
+    {
+        "Id":  53,
+        "IdCliente":  19,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  96.36,
+        "Estatura":  1.78,
+        "IMC":  30.41
+    },
+    {
+        "Id":  54,
+        "IdCliente":  19,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  95.81,
+        "Estatura":  1.78,
+        "IMC":  30.24
+    },
+    {
+        "Id":  55,
+        "IdCliente":  20,
+        "Fecha":  "2026-01-15T00:00:00",
+        "Peso":  91.89,
+        "Estatura":  1.51,
+        "IMC":  40.3
+    },
+    {
+        "Id":  56,
+        "IdCliente":  20,
+        "Fecha":  "2026-02-15T00:00:00",
+        "Peso":  90.89,
+        "Estatura":  1.51,
+        "IMC":  39.86
+    },
+    {
+        "Id":  57,
+        "IdCliente":  20,
+        "Fecha":  "2026-03-15T00:00:00",
+        "Peso":  89.89,
+        "Estatura":  1.51,
+        "IMC":  39.42
+    },
+    {
+        "Id":  58,
+        "IdCliente":  20,
+        "Fecha":  "2026-04-15T00:00:00",
+        "Peso":  88.89,
+        "Estatura":  1.51,
+        "IMC":  38.99
+    },
+    {
+        "Id":  59,
+        "IdCliente":  20,
+        "Fecha":  "2026-05-15T00:00:00",
+        "Peso":  87.89,
+        "Estatura":  1.51,
+        "IMC":  38.55
+    },
+    {
+        "Id":  60,
+        "IdCliente":  20,
+        "Fecha":  "2026-06-15T00:00:00",
+        "Peso":  86.89,
+        "Estatura":  1.51,
+        "IMC":  38.11
+    },
+    {
+        "Id":  61,
+        "IdCliente":  21,
+        "Fecha":  "2026-01-19T00:00:00",
+        "Peso":  55.52,
+        "Estatura":  1.83,
+        "IMC":  16.58
+    },
+    {
+        "Id":  62,
+        "IdCliente":  21,
+        "Fecha":  "2026-02-19T00:00:00",
+        "Peso":  54.89,
+        "Estatura":  1.83,
+        "IMC":  16.39
+    },
+    {
+        "Id":  63,
+        "IdCliente":  21,
+        "Fecha":  "2026-03-19T00:00:00",
+        "Peso":  54.26,
+        "Estatura":  1.83,
+        "IMC":  16.2
+    },
+    {
+        "Id":  64,
+        "IdCliente":  21,
+        "Fecha":  "2026-04-19T00:00:00",
+        "Peso":  53.63,
+        "Estatura":  1.83,
+        "IMC":  16.01
+    },
+    {
+        "Id":  65,
+        "IdCliente":  21,
+        "Fecha":  "2026-05-19T00:00:00",
+        "Peso":  53,
+        "Estatura":  1.83,
+        "IMC":  15.83
+    },
+    {
+        "Id":  66,
+        "IdCliente":  21,
+        "Fecha":  "2026-06-19T00:00:00",
+        "Peso":  52.37,
+        "Estatura":  1.83,
+        "IMC":  15.64
+    },
+    {
+        "Id":  67,
+        "IdCliente":  22,
+        "Fecha":  "2026-02-17T00:00:00",
+        "Peso":  94.4,
+        "Estatura":  1.6,
+        "IMC":  36.87
+    },
+    {
+        "Id":  68,
+        "IdCliente":  22,
+        "Fecha":  "2026-03-17T00:00:00",
+        "Peso":  94.02,
+        "Estatura":  1.6,
+        "IMC":  36.73
+    },
+    {
+        "Id":  69,
+        "IdCliente":  22,
+        "Fecha":  "2026-04-17T00:00:00",
+        "Peso":  93.64,
+        "Estatura":  1.6,
+        "IMC":  36.58
+    },
+    {
+        "Id":  70,
+        "IdCliente":  22,
+        "Fecha":  "2026-05-17T00:00:00",
+        "Peso":  93.26,
+        "Estatura":  1.6,
+        "IMC":  36.43
+    },
+    {
+        "Id":  71,
+        "IdCliente":  22,
+        "Fecha":  "2026-06-17T00:00:00",
+        "Peso":  92.88,
+        "Estatura":  1.6,
+        "IMC":  36.28
+    },
+    {
+        "Id":  72,
+        "IdCliente":  22,
+        "Fecha":  "2026-07-17T00:00:00",
+        "Peso":  92.5,
+        "Estatura":  1.6,
+        "IMC":  36.13
+    },
+    {
+        "Id":  73,
+        "IdCliente":  23,
+        "Fecha":  "2026-01-25T00:00:00",
+        "Peso":  77.97,
+        "Estatura":  1.52,
+        "IMC":  33.75
+    },
+    {
+        "Id":  74,
+        "IdCliente":  23,
+        "Fecha":  "2026-02-25T00:00:00",
+        "Peso":  77.29,
+        "Estatura":  1.52,
+        "IMC":  33.45
+    },
+    {
+        "Id":  75,
+        "IdCliente":  23,
+        "Fecha":  "2026-03-25T00:00:00",
+        "Peso":  76.61,
+        "Estatura":  1.52,
+        "IMC":  33.16
+    },
+    {
+        "Id":  76,
+        "IdCliente":  23,
+        "Fecha":  "2026-04-25T00:00:00",
+        "Peso":  75.93,
+        "Estatura":  1.52,
+        "IMC":  32.86
+    },
+    {
+        "Id":  77,
+        "IdCliente":  23,
+        "Fecha":  "2026-05-25T00:00:00",
+        "Peso":  75.25,
+        "Estatura":  1.52,
+        "IMC":  32.57
+    },
+    {
+        "Id":  78,
+        "IdCliente":  23,
+        "Fecha":  "2026-06-25T00:00:00",
+        "Peso":  74.57,
+        "Estatura":  1.52,
+        "IMC":  32.28
+    },
+    {
+        "Id":  79,
+        "IdCliente":  24,
+        "Fecha":  "2026-02-21T00:00:00",
+        "Peso":  71.28,
+        "Estatura":  1.78,
+        "IMC":  22.5
+    },
+    {
+        "Id":  80,
+        "IdCliente":  24,
+        "Fecha":  "2026-03-21T00:00:00",
+        "Peso":  70.65,
+        "Estatura":  1.78,
+        "IMC":  22.3
+    },
+    {
+        "Id":  81,
+        "IdCliente":  24,
+        "Fecha":  "2026-04-21T00:00:00",
+        "Peso":  70.02,
+        "Estatura":  1.78,
+        "IMC":  22.1
+    },
+    {
+        "Id":  82,
+        "IdCliente":  24,
+        "Fecha":  "2026-05-21T00:00:00",
+        "Peso":  69.39,
+        "Estatura":  1.78,
+        "IMC":  21.9
+    },
+    {
+        "Id":  83,
+        "IdCliente":  24,
+        "Fecha":  "2026-06-21T00:00:00",
+        "Peso":  68.76,
+        "Estatura":  1.78,
+        "IMC":  21.7
+    },
+    {
+        "Id":  84,
+        "IdCliente":  24,
+        "Fecha":  "2026-07-21T00:00:00",
+        "Peso":  68.13,
+        "Estatura":  1.78,
+        "IMC":  21.5
+    },
+    {
+        "Id":  85,
+        "IdCliente":  25,
+        "Fecha":  "2026-01-10T00:00:00",
+        "Peso":  81.08,
+        "Estatura":  1.92,
+        "IMC":  21.99
+    },
+    {
+        "Id":  86,
+        "IdCliente":  25,
+        "Fecha":  "2026-02-10T00:00:00",
+        "Peso":  80.73,
+        "Estatura":  1.92,
+        "IMC":  21.9
+    },
+    {
+        "Id":  87,
+        "IdCliente":  25,
+        "Fecha":  "2026-03-10T00:00:00",
+        "Peso":  80.38,
+        "Estatura":  1.92,
+        "IMC":  21.8
+    },
+    {
+        "Id":  88,
+        "IdCliente":  25,
+        "Fecha":  "2026-04-10T00:00:00",
+        "Peso":  80.03,
+        "Estatura":  1.92,
+        "IMC":  21.71
+    },
+    {
+        "Id":  89,
+        "IdCliente":  25,
+        "Fecha":  "2026-05-10T00:00:00",
+        "Peso":  79.68,
+        "Estatura":  1.92,
+        "IMC":  21.61
+    },
+    {
+        "Id":  90,
+        "IdCliente":  25,
+        "Fecha":  "2026-06-10T00:00:00",
+        "Peso":  79.33,
+        "Estatura":  1.92,
+        "IMC":  21.52
+    },
+    {
+        "Id":  91,
+        "IdCliente":  26,
+        "Fecha":  "2026-02-19T00:00:00",
+        "Peso":  88.08,
+        "Estatura":  1.91,
+        "IMC":  24.14
+    },
+    {
+        "Id":  92,
+        "IdCliente":  26,
+        "Fecha":  "2026-03-19T00:00:00",
+        "Peso":  87.62,
+        "Estatura":  1.91,
+        "IMC":  24.02
+    },
+    {
+        "Id":  93,
+        "IdCliente":  26,
+        "Fecha":  "2026-04-19T00:00:00",
+        "Peso":  87.16,
+        "Estatura":  1.91,
+        "IMC":  23.89
+    },
+    {
+        "Id":  94,
+        "IdCliente":  26,
+        "Fecha":  "2026-05-19T00:00:00",
+        "Peso":  86.7,
+        "Estatura":  1.91,
+        "IMC":  23.77
+    },
+    {
+        "Id":  95,
+        "IdCliente":  26,
+        "Fecha":  "2026-06-19T00:00:00",
+        "Peso":  86.24,
+        "Estatura":  1.91,
+        "IMC":  23.64
+    },
+    {
+        "Id":  96,
+        "IdCliente":  26,
+        "Fecha":  "2026-07-19T00:00:00",
+        "Peso":  85.78,
+        "Estatura":  1.91,
+        "IMC":  23.51
+    },
+    {
+        "Id":  97,
+        "IdCliente":  27,
+        "Fecha":  "2026-01-13T00:00:00",
+        "Peso":  99.92,
+        "Estatura":  1.53,
+        "IMC":  42.68
+    },
+    {
+        "Id":  98,
+        "IdCliente":  27,
+        "Fecha":  "2026-02-13T00:00:00",
+        "Peso":  99.49,
+        "Estatura":  1.53,
+        "IMC":  42.5
+    },
+    {
+        "Id":  99,
+        "IdCliente":  27,
+        "Fecha":  "2026-03-13T00:00:00",
+        "Peso":  99.06,
+        "Estatura":  1.53,
+        "IMC":  42.32
+    },
+    {
+        "Id":  100,
+        "IdCliente":  27,
+        "Fecha":  "2026-04-13T00:00:00",
+        "Peso":  98.63,
+        "Estatura":  1.53,
+        "IMC":  42.13
+    },
+    {
+        "Id":  101,
+        "IdCliente":  27,
+        "Fecha":  "2026-05-13T00:00:00",
+        "Peso":  98.2,
+        "Estatura":  1.53,
+        "IMC":  41.95
+    },
+    {
+        "Id":  102,
+        "IdCliente":  27,
+        "Fecha":  "2026-06-13T00:00:00",
+        "Peso":  97.77,
+        "Estatura":  1.53,
+        "IMC":  41.77
+    },
+    {
+        "Id":  103,
+        "IdCliente":  28,
+        "Fecha":  "2026-03-01T00:00:00",
+        "Peso":  64.74,
+        "Estatura":  1.85,
+        "IMC":  18.92
+    },
+    {
+        "Id":  104,
+        "IdCliente":  28,
+        "Fecha":  "2026-04-01T00:00:00",
+        "Peso":  63.9,
+        "Estatura":  1.85,
+        "IMC":  18.67
+    },
+    {
+        "Id":  105,
+        "IdCliente":  28,
+        "Fecha":  "2026-05-01T00:00:00",
+        "Peso":  63.06,
+        "Estatura":  1.85,
+        "IMC":  18.43
+    },
+    {
+        "Id":  106,
+        "IdCliente":  28,
+        "Fecha":  "2026-06-01T00:00:00",
+        "Peso":  62.22,
+        "Estatura":  1.85,
+        "IMC":  18.18
+    },
+    {
+        "Id":  107,
+        "IdCliente":  28,
+        "Fecha":  "2026-07-01T00:00:00",
+        "Peso":  61.38,
+        "Estatura":  1.85,
+        "IMC":  17.93
+    },
+    {
+        "Id":  108,
+        "IdCliente":  28,
+        "Fecha":  "2026-08-01T00:00:00",
+        "Peso":  60.54,
+        "Estatura":  1.85,
+        "IMC":  17.69
+    },
+    {
+        "Id":  109,
+        "IdCliente":  29,
+        "Fecha":  "2026-02-20T00:00:00",
+        "Peso":  68.86,
+        "Estatura":  1.51,
+        "IMC":  30.2
+    },
+    {
+        "Id":  110,
+        "IdCliente":  29,
+        "Fecha":  "2026-03-20T00:00:00",
+        "Peso":  67.88,
+        "Estatura":  1.51,
+        "IMC":  29.77
+    },
+    {
+        "Id":  111,
+        "IdCliente":  29,
+        "Fecha":  "2026-04-20T00:00:00",
+        "Peso":  66.9,
+        "Estatura":  1.51,
+        "IMC":  29.34
+    },
+    {
+        "Id":  112,
+        "IdCliente":  29,
+        "Fecha":  "2026-05-20T00:00:00",
+        "Peso":  65.92,
+        "Estatura":  1.51,
+        "IMC":  28.91
+    },
+    {
+        "Id":  113,
+        "IdCliente":  29,
+        "Fecha":  "2026-06-20T00:00:00",
+        "Peso":  64.94,
+        "Estatura":  1.51,
+        "IMC":  28.48
+    },
+    {
+        "Id":  114,
+        "IdCliente":  29,
+        "Fecha":  "2026-07-20T00:00:00",
+        "Peso":  63.96,
+        "Estatura":  1.51,
+        "IMC":  28.05
+    },
+    {
+        "Id":  115,
+        "IdCliente":  30,
+        "Fecha":  "2026-01-27T00:00:00",
+        "Peso":  51.75,
+        "Estatura":  1.68,
+        "IMC":  18.34
+    },
+    {
+        "Id":  116,
+        "IdCliente":  30,
+        "Fecha":  "2026-02-27T00:00:00",
+        "Peso":  51.03,
+        "Estatura":  1.68,
+        "IMC":  18.08
+    },
+    {
+        "Id":  117,
+        "IdCliente":  30,
+        "Fecha":  "2026-03-27T00:00:00",
+        "Peso":  50.31,
+        "Estatura":  1.68,
+        "IMC":  17.83
+    },
+    {
+        "Id":  118,
+        "IdCliente":  30,
+        "Fecha":  "2026-04-27T00:00:00",
+        "Peso":  49.59,
+        "Estatura":  1.68,
+        "IMC":  17.57
+    },
+    {
+        "Id":  119,
+        "IdCliente":  30,
+        "Fecha":  "2026-05-27T00:00:00",
+        "Peso":  48.87,
+        "Estatura":  1.68,
+        "IMC":  17.32
+    },
+    {
+        "Id":  120,
+        "IdCliente":  30,
+        "Fecha":  "2026-06-27T00:00:00",
+        "Peso":  48.15,
+        "Estatura":  1.68,
+        "IMC":  17.06
+    },
+    {
+        "Id":  121,
+        "IdCliente":  31,
+        "Fecha":  "2026-02-25T00:00:00",
+        "Peso":  77.13,
+        "Estatura":  1.92,
+        "IMC":  20.92
+    },
+    {
+        "Id":  122,
+        "IdCliente":  31,
+        "Fecha":  "2026-03-25T00:00:00",
+        "Peso":  76.16,
+        "Estatura":  1.92,
+        "IMC":  20.66
+    },
+    {
+        "Id":  123,
+        "IdCliente":  31,
+        "Fecha":  "2026-04-25T00:00:00",
+        "Peso":  75.19,
+        "Estatura":  1.92,
+        "IMC":  20.4
+    },
+    {
+        "Id":  124,
+        "IdCliente":  31,
+        "Fecha":  "2026-05-25T00:00:00",
+        "Peso":  74.22,
+        "Estatura":  1.92,
+        "IMC":  20.13
+    },
+    {
+        "Id":  125,
+        "IdCliente":  31,
+        "Fecha":  "2026-06-25T00:00:00",
+        "Peso":  73.25,
+        "Estatura":  1.92,
+        "IMC":  19.87
+    },
+    {
+        "Id":  126,
+        "IdCliente":  31,
+        "Fecha":  "2026-07-25T00:00:00",
+        "Peso":  72.28,
+        "Estatura":  1.92,
+        "IMC":  19.61
+    },
+    {
+        "Id":  127,
+        "IdCliente":  32,
+        "Fecha":  "2026-02-23T00:00:00",
+        "Peso":  80.46,
+        "Estatura":  1.9,
+        "IMC":  22.29
+    },
+    {
+        "Id":  128,
+        "IdCliente":  32,
+        "Fecha":  "2026-03-23T00:00:00",
+        "Peso":  81.05,
+        "Estatura":  1.9,
+        "IMC":  22.45
+    },
+    {
+        "Id":  129,
+        "IdCliente":  32,
+        "Fecha":  "2026-04-23T00:00:00",
+        "Peso":  81.64,
+        "Estatura":  1.9,
+        "IMC":  22.61
+    },
+    {
+        "Id":  130,
+        "IdCliente":  32,
+        "Fecha":  "2026-05-23T00:00:00",
+        "Peso":  82.23,
+        "Estatura":  1.9,
+        "IMC":  22.78
+    },
+    {
+        "Id":  131,
+        "IdCliente":  32,
+        "Fecha":  "2026-06-23T00:00:00",
+        "Peso":  82.82,
+        "Estatura":  1.9,
+        "IMC":  22.94
+    },
+    {
+        "Id":  132,
+        "IdCliente":  32,
+        "Fecha":  "2026-07-23T00:00:00",
+        "Peso":  83.41,
+        "Estatura":  1.9,
+        "IMC":  23.11
+    },
+    {
+        "Id":  133,
+        "IdCliente":  33,
+        "Fecha":  "2026-01-13T00:00:00",
+        "Peso":  86.65,
+        "Estatura":  1.74,
+        "IMC":  28.62
+    },
+    {
+        "Id":  134,
+        "IdCliente":  33,
+        "Fecha":  "2026-02-13T00:00:00",
+        "Peso":  87.4,
+        "Estatura":  1.74,
+        "IMC":  28.87
+    },
+    {
+        "Id":  135,
+        "IdCliente":  33,
+        "Fecha":  "2026-03-13T00:00:00",
+        "Peso":  88.15,
+        "Estatura":  1.74,
+        "IMC":  29.12
+    },
+    {
+        "Id":  136,
+        "IdCliente":  33,
+        "Fecha":  "2026-04-13T00:00:00",
+        "Peso":  88.9,
+        "Estatura":  1.74,
+        "IMC":  29.36
+    },
+    {
+        "Id":  137,
+        "IdCliente":  33,
+        "Fecha":  "2026-05-13T00:00:00",
+        "Peso":  89.65,
+        "Estatura":  1.74,
+        "IMC":  29.61
+    },
+    {
+        "Id":  138,
+        "IdCliente":  33,
+        "Fecha":  "2026-06-13T00:00:00",
+        "Peso":  90.4,
+        "Estatura":  1.74,
+        "IMC":  29.86
+    },
+    {
+        "Id":  139,
+        "IdCliente":  34,
+        "Fecha":  "2026-01-26T00:00:00",
+        "Peso":  99.54,
+        "Estatura":  1.88,
+        "IMC":  28.16
+    },
+    {
+        "Id":  140,
+        "IdCliente":  34,
+        "Fecha":  "2026-02-26T00:00:00",
+        "Peso":  100.47,
+        "Estatura":  1.88,
+        "IMC":  28.43
+    },
+    {
+        "Id":  141,
+        "IdCliente":  34,
+        "Fecha":  "2026-03-26T00:00:00",
+        "Peso":  101.4,
+        "Estatura":  1.88,
+        "IMC":  28.69
+    },
+    {
+        "Id":  142,
+        "IdCliente":  34,
+        "Fecha":  "2026-04-26T00:00:00",
+        "Peso":  102.33,
+        "Estatura":  1.88,
+        "IMC":  28.95
+    },
+    {
+        "Id":  143,
+        "IdCliente":  34,
+        "Fecha":  "2026-05-26T00:00:00",
+        "Peso":  103.26,
+        "Estatura":  1.88,
+        "IMC":  29.22
+    },
+    {
+        "Id":  144,
+        "IdCliente":  34,
+        "Fecha":  "2026-06-26T00:00:00",
+        "Peso":  104.19,
+        "Estatura":  1.88,
+        "IMC":  29.48
+    },
+    {
+        "Id":  145,
+        "IdCliente":  35,
+        "Fecha":  "2026-01-30T00:00:00",
+        "Peso":  62.48,
+        "Estatura":  1.71,
+        "IMC":  21.37
+    },
+    {
+        "Id":  146,
+        "IdCliente":  35,
+        "Fecha":  "2026-02-28T00:00:00",
+        "Peso":  63.38,
+        "Estatura":  1.71,
+        "IMC":  21.68
+    },
+    {
+        "Id":  147,
+        "IdCliente":  35,
+        "Fecha":  "2026-03-30T00:00:00",
+        "Peso":  64.28,
+        "Estatura":  1.71,
+        "IMC":  21.98
+    },
+    {
+        "Id":  148,
+        "IdCliente":  35,
+        "Fecha":  "2026-04-30T00:00:00",
+        "Peso":  65.18,
+        "Estatura":  1.71,
+        "IMC":  22.29
+    },
+    {
+        "Id":  149,
+        "IdCliente":  35,
+        "Fecha":  "2026-05-30T00:00:00",
+        "Peso":  66.08,
+        "Estatura":  1.71,
+        "IMC":  22.6
+    },
+    {
+        "Id":  150,
+        "IdCliente":  35,
+        "Fecha":  "2026-06-30T00:00:00",
+        "Peso":  66.98,
+        "Estatura":  1.71,
+        "IMC":  22.91
+    },
+    {
+        "Id":  151,
+        "IdCliente":  36,
+        "Fecha":  "2026-01-26T00:00:00",
+        "Peso":  95.89,
+        "Estatura":  1.81,
+        "IMC":  29.27
+    },
+    {
+        "Id":  152,
+        "IdCliente":  36,
+        "Fecha":  "2026-02-26T00:00:00",
+        "Peso":  96.58,
+        "Estatura":  1.81,
+        "IMC":  29.48
+    },
+    {
+        "Id":  153,
+        "IdCliente":  36,
+        "Fecha":  "2026-03-26T00:00:00",
+        "Peso":  97.27,
+        "Estatura":  1.81,
+        "IMC":  29.69
+    },
+    {
+        "Id":  154,
+        "IdCliente":  36,
+        "Fecha":  "2026-04-26T00:00:00",
+        "Peso":  97.96,
+        "Estatura":  1.81,
+        "IMC":  29.9
+    },
+    {
+        "Id":  155,
+        "IdCliente":  36,
+        "Fecha":  "2026-05-26T00:00:00",
+        "Peso":  98.65,
+        "Estatura":  1.81,
+        "IMC":  30.11
+    },
+    {
+        "Id":  156,
+        "IdCliente":  36,
+        "Fecha":  "2026-06-26T00:00:00",
+        "Peso":  99.34,
+        "Estatura":  1.81,
+        "IMC":  30.32
+    },
+    {
+        "Id":  157,
+        "IdCliente":  37,
+        "Fecha":  "2026-01-21T00:00:00",
+        "Peso":  70.14,
+        "Estatura":  1.76,
+        "IMC":  22.64
+    },
+    {
+        "Id":  158,
+        "IdCliente":  37,
+        "Fecha":  "2026-02-21T00:00:00",
+        "Peso":  70.82,
+        "Estatura":  1.76,
+        "IMC":  22.86
+    },
+    {
+        "Id":  159,
+        "IdCliente":  37,
+        "Fecha":  "2026-03-21T00:00:00",
+        "Peso":  71.5,
+        "Estatura":  1.76,
+        "IMC":  23.08
+    },
+    {
+        "Id":  160,
+        "IdCliente":  37,
+        "Fecha":  "2026-04-21T00:00:00",
+        "Peso":  72.18,
+        "Estatura":  1.76,
+        "IMC":  23.3
+    },
+    {
+        "Id":  161,
+        "IdCliente":  37,
+        "Fecha":  "2026-05-21T00:00:00",
+        "Peso":  72.86,
+        "Estatura":  1.76,
+        "IMC":  23.52
+    },
+    {
+        "Id":  162,
+        "IdCliente":  37,
+        "Fecha":  "2026-06-21T00:00:00",
+        "Peso":  73.54,
+        "Estatura":  1.76,
+        "IMC":  23.74
+    },
+    {
+        "Id":  163,
+        "IdCliente":  38,
+        "Fecha":  "2026-01-13T00:00:00",
+        "Peso":  53.25,
+        "Estatura":  1.65,
+        "IMC":  19.56
+    },
+    {
+        "Id":  164,
+        "IdCliente":  38,
+        "Fecha":  "2026-02-13T00:00:00",
+        "Peso":  53.83,
+        "Estatura":  1.65,
+        "IMC":  19.77
+    },
+    {
+        "Id":  165,
+        "IdCliente":  38,
+        "Fecha":  "2026-03-13T00:00:00",
+        "Peso":  54.41,
+        "Estatura":  1.65,
+        "IMC":  19.99
+    },
+    {
+        "Id":  166,
+        "IdCliente":  38,
+        "Fecha":  "2026-04-13T00:00:00",
+        "Peso":  54.99,
+        "Estatura":  1.65,
+        "IMC":  20.2
+    },
+    {
+        "Id":  167,
+        "IdCliente":  38,
+        "Fecha":  "2026-05-13T00:00:00",
+        "Peso":  55.57,
+        "Estatura":  1.65,
+        "IMC":  20.41
+    },
+    {
+        "Id":  168,
+        "IdCliente":  38,
+        "Fecha":  "2026-06-13T00:00:00",
+        "Peso":  56.15,
+        "Estatura":  1.65,
+        "IMC":  20.62
+    },
+    {
+        "Id":  169,
+        "IdCliente":  39,
+        "Fecha":  "2026-02-27T00:00:00",
+        "Peso":  71.79,
+        "Estatura":  1.73,
+        "IMC":  23.99
+    },
+    {
+        "Id":  170,
+        "IdCliente":  39,
+        "Fecha":  "2026-03-27T00:00:00",
+        "Peso":  72.7,
+        "Estatura":  1.73,
+        "IMC":  24.29
+    },
+    {
+        "Id":  171,
+        "IdCliente":  39,
+        "Fecha":  "2026-04-27T00:00:00",
+        "Peso":  73.61,
+        "Estatura":  1.73,
+        "IMC":  24.59
+    },
+    {
+        "Id":  172,
+        "IdCliente":  39,
+        "Fecha":  "2026-05-27T00:00:00",
+        "Peso":  74.52,
+        "Estatura":  1.73,
+        "IMC":  24.9
+    },
+    {
+        "Id":  173,
+        "IdCliente":  39,
+        "Fecha":  "2026-06-27T00:00:00",
+        "Peso":  75.43,
+        "Estatura":  1.73,
+        "IMC":  25.2
+    },
+    {
+        "Id":  174,
+        "IdCliente":  39,
+        "Fecha":  "2026-07-27T00:00:00",
+        "Peso":  76.34,
+        "Estatura":  1.73,
+        "IMC":  25.51
+    },
+    {
+        "Id":  175,
+        "IdCliente":  40,
+        "Fecha":  "2026-01-22T00:00:00",
+        "Peso":  64.62,
+        "Estatura":  1.65,
+        "IMC":  23.74
+    },
+    {
+        "Id":  176,
+        "IdCliente":  40,
+        "Fecha":  "2026-02-22T00:00:00",
+        "Peso":  65.61,
+        "Estatura":  1.65,
+        "IMC":  24.1
+    },
+    {
+        "Id":  177,
+        "IdCliente":  40,
+        "Fecha":  "2026-03-22T00:00:00",
+        "Peso":  66.6,
+        "Estatura":  1.65,
+        "IMC":  24.46
+    },
+    {
+        "Id":  178,
+        "IdCliente":  40,
+        "Fecha":  "2026-04-22T00:00:00",
+        "Peso":  67.59,
+        "Estatura":  1.65,
+        "IMC":  24.83
+    },
+    {
+        "Id":  179,
+        "IdCliente":  40,
+        "Fecha":  "2026-05-22T00:00:00",
+        "Peso":  68.58,
+        "Estatura":  1.65,
+        "IMC":  25.19
+    },
+    {
+        "Id":  180,
+        "IdCliente":  40,
+        "Fecha":  "2026-06-22T00:00:00",
+        "Peso":  69.57,
+        "Estatura":  1.65,
+        "IMC":  25.55
+    },
+    {
+        "Id":  181,
+        "IdCliente":  41,
+        "Fecha":  "2026-01-15T00:00:00",
+        "Peso":  60.94,
+        "Estatura":  1.7,
+        "IMC":  21.09
+    },
+    {
+        "Id":  182,
+        "IdCliente":  41,
+        "Fecha":  "2026-02-15T00:00:00",
+        "Peso":  61.35,
+        "Estatura":  1.7,
+        "IMC":  21.23
+    },
+    {
+        "Id":  183,
+        "IdCliente":  41,
+        "Fecha":  "2026-03-15T00:00:00",
+        "Peso":  61.76,
+        "Estatura":  1.7,
+        "IMC":  21.37
+    },
+    {
+        "Id":  184,
+        "IdCliente":  41,
+        "Fecha":  "2026-04-15T00:00:00",
+        "Peso":  62.17,
+        "Estatura":  1.7,
+        "IMC":  21.51
+    },
+    {
+        "Id":  185,
+        "IdCliente":  41,
+        "Fecha":  "2026-05-15T00:00:00",
+        "Peso":  62.58,
+        "Estatura":  1.7,
+        "IMC":  21.65
+    },
+    {
+        "Id":  186,
+        "IdCliente":  41,
+        "Fecha":  "2026-06-15T00:00:00",
+        "Peso":  62.99,
+        "Estatura":  1.7,
+        "IMC":  21.8
+    },
+    {
+        "Id":  187,
+        "IdCliente":  42,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  84.74,
+        "Estatura":  1.61,
+        "IMC":  32.69
+    },
+    {
+        "Id":  188,
+        "IdCliente":  42,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  85.21,
+        "Estatura":  1.61,
+        "IMC":  32.87
+    },
+    {
+        "Id":  189,
+        "IdCliente":  42,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  85.68,
+        "Estatura":  1.61,
+        "IMC":  33.05
+    },
+    {
+        "Id":  190,
+        "IdCliente":  42,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  86.15,
+        "Estatura":  1.61,
+        "IMC":  33.24
+    },
+    {
+        "Id":  191,
+        "IdCliente":  42,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  86.62,
+        "Estatura":  1.61,
+        "IMC":  33.42
+    },
+    {
+        "Id":  192,
+        "IdCliente":  42,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  87.09,
+        "Estatura":  1.61,
+        "IMC":  33.6
+    },
+    {
+        "Id":  193,
+        "IdCliente":  43,
+        "Fecha":  "2026-02-11T00:00:00",
+        "Peso":  58.37,
+        "Estatura":  1.81,
+        "IMC":  17.82
+    },
+    {
+        "Id":  194,
+        "IdCliente":  43,
+        "Fecha":  "2026-03-11T00:00:00",
+        "Peso":  59.3,
+        "Estatura":  1.81,
+        "IMC":  18.1
+    },
+    {
+        "Id":  195,
+        "IdCliente":  43,
+        "Fecha":  "2026-04-11T00:00:00",
+        "Peso":  60.23,
+        "Estatura":  1.81,
+        "IMC":  18.38
+    },
+    {
+        "Id":  196,
+        "IdCliente":  43,
+        "Fecha":  "2026-05-11T00:00:00",
+        "Peso":  61.16,
+        "Estatura":  1.81,
+        "IMC":  18.67
+    },
+    {
+        "Id":  197,
+        "IdCliente":  43,
+        "Fecha":  "2026-06-11T00:00:00",
+        "Peso":  62.09,
+        "Estatura":  1.81,
+        "IMC":  18.95
+    },
+    {
+        "Id":  198,
+        "IdCliente":  43,
+        "Fecha":  "2026-07-11T00:00:00",
+        "Peso":  63.02,
+        "Estatura":  1.81,
+        "IMC":  19.24
+    },
+    {
+        "Id":  199,
+        "IdCliente":  44,
+        "Fecha":  "2026-02-23T00:00:00",
+        "Peso":  53.63,
+        "Estatura":  1.74,
+        "IMC":  17.71
+    },
+    {
+        "Id":  200,
+        "IdCliente":  44,
+        "Fecha":  "2026-03-23T00:00:00",
+        "Peso":  54.07,
+        "Estatura":  1.74,
+        "IMC":  17.86
+    },
+    {
+        "Id":  201,
+        "IdCliente":  44,
+        "Fecha":  "2026-04-23T00:00:00",
+        "Peso":  54.51,
+        "Estatura":  1.74,
+        "IMC":  18
+    },
+    {
+        "Id":  202,
+        "IdCliente":  44,
+        "Fecha":  "2026-05-23T00:00:00",
+        "Peso":  54.95,
+        "Estatura":  1.74,
+        "IMC":  18.15
+    },
+    {
+        "Id":  203,
+        "IdCliente":  44,
+        "Fecha":  "2026-06-23T00:00:00",
+        "Peso":  55.39,
+        "Estatura":  1.74,
+        "IMC":  18.3
+    },
+    {
+        "Id":  204,
+        "IdCliente":  44,
+        "Fecha":  "2026-07-23T00:00:00",
+        "Peso":  55.83,
+        "Estatura":  1.74,
+        "IMC":  18.44
+    },
+    {
+        "Id":  205,
+        "IdCliente":  45,
+        "Fecha":  "2026-01-22T00:00:00",
+        "Peso":  90.05,
+        "Estatura":  1.94,
+        "IMC":  23.93
+    },
+    {
+        "Id":  206,
+        "IdCliente":  45,
+        "Fecha":  "2026-02-22T00:00:00",
+        "Peso":  90.95,
+        "Estatura":  1.94,
+        "IMC":  24.17
+    },
+    {
+        "Id":  207,
+        "IdCliente":  45,
+        "Fecha":  "2026-03-22T00:00:00",
+        "Peso":  91.85,
+        "Estatura":  1.94,
+        "IMC":  24.4
+    },
+    {
+        "Id":  208,
+        "IdCliente":  45,
+        "Fecha":  "2026-04-22T00:00:00",
+        "Peso":  92.75,
+        "Estatura":  1.94,
+        "IMC":  24.64
+    },
+    {
+        "Id":  209,
+        "IdCliente":  45,
+        "Fecha":  "2026-05-22T00:00:00",
+        "Peso":  93.65,
+        "Estatura":  1.94,
+        "IMC":  24.88
+    },
+    {
+        "Id":  210,
+        "IdCliente":  45,
+        "Fecha":  "2026-06-22T00:00:00",
+        "Peso":  94.55,
+        "Estatura":  1.94,
+        "IMC":  25.12
+    },
+    {
+        "Id":  211,
+        "IdCliente":  46,
+        "Fecha":  "2026-01-08T00:00:00",
+        "Peso":  54.88,
+        "Estatura":  1.84,
+        "IMC":  16.21
+    },
+    {
+        "Id":  212,
+        "IdCliente":  46,
+        "Fecha":  "2026-02-08T00:00:00",
+        "Peso":  55.27,
+        "Estatura":  1.84,
+        "IMC":  16.33
+    },
+    {
+        "Id":  213,
+        "IdCliente":  46,
+        "Fecha":  "2026-03-08T00:00:00",
+        "Peso":  55.66,
+        "Estatura":  1.84,
+        "IMC":  16.44
+    },
+    {
+        "Id":  214,
+        "IdCliente":  46,
+        "Fecha":  "2026-04-08T00:00:00",
+        "Peso":  56.05,
+        "Estatura":  1.84,
+        "IMC":  16.56
+    },
+    {
+        "Id":  215,
+        "IdCliente":  46,
+        "Fecha":  "2026-05-08T00:00:00",
+        "Peso":  56.44,
+        "Estatura":  1.84,
+        "IMC":  16.67
+    },
+    {
+        "Id":  216,
+        "IdCliente":  46,
+        "Fecha":  "2026-06-08T00:00:00",
+        "Peso":  56.83,
+        "Estatura":  1.84,
+        "IMC":  16.79
+    },
+    {
+        "Id":  217,
+        "IdCliente":  47,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  69.82,
+        "Estatura":  1.92,
+        "IMC":  18.94
+    },
+    {
+        "Id":  218,
+        "IdCliente":  47,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  70.07,
+        "Estatura":  1.92,
+        "IMC":  19.01
+    },
+    {
+        "Id":  219,
+        "IdCliente":  47,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  69.46,
+        "Estatura":  1.92,
+        "IMC":  18.84
+    },
+    {
+        "Id":  220,
+        "IdCliente":  47,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  70.13,
+        "Estatura":  1.92,
+        "IMC":  19.02
+    },
+    {
+        "Id":  221,
+        "IdCliente":  47,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  69.35,
+        "Estatura":  1.92,
+        "IMC":  18.81
+    },
+    {
+        "Id":  222,
+        "IdCliente":  47,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  69.82,
+        "Estatura":  1.92,
+        "IMC":  18.94
+    },
+    {
+        "Id":  223,
+        "IdCliente":  48,
+        "Fecha":  "2026-01-23T00:00:00",
+        "Peso":  85.05,
+        "Estatura":  1.81,
+        "IMC":  25.96
+    },
+    {
+        "Id":  224,
+        "IdCliente":  48,
+        "Fecha":  "2026-02-23T00:00:00",
+        "Peso":  84.97,
+        "Estatura":  1.81,
+        "IMC":  25.94
+    },
+    {
+        "Id":  225,
+        "IdCliente":  48,
+        "Fecha":  "2026-03-23T00:00:00",
+        "Peso":  84.55,
+        "Estatura":  1.81,
+        "IMC":  25.81
+    },
+    {
+        "Id":  226,
+        "IdCliente":  48,
+        "Fecha":  "2026-04-23T00:00:00",
+        "Peso":  85.43,
+        "Estatura":  1.81,
+        "IMC":  26.08
+    },
+    {
+        "Id":  227,
+        "IdCliente":  48,
+        "Fecha":  "2026-05-23T00:00:00",
+        "Peso":  85.22,
+        "Estatura":  1.81,
+        "IMC":  26.01
+    },
+    {
+        "Id":  228,
+        "IdCliente":  48,
+        "Fecha":  "2026-06-23T00:00:00",
+        "Peso":  85.05,
+        "Estatura":  1.81,
+        "IMC":  25.96
+    },
+    {
+        "Id":  229,
+        "IdCliente":  49,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  54.44,
+        "Estatura":  1.73,
+        "IMC":  18.19
+    },
+    {
+        "Id":  230,
+        "IdCliente":  49,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  54.59,
+        "Estatura":  1.73,
+        "IMC":  18.24
+    },
+    {
+        "Id":  231,
+        "IdCliente":  49,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  54.18,
+        "Estatura":  1.73,
+        "IMC":  18.1
+    },
+    {
+        "Id":  232,
+        "IdCliente":  49,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  54.31,
+        "Estatura":  1.73,
+        "IMC":  18.15
+    },
+    {
+        "Id":  233,
+        "IdCliente":  49,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  54.33,
+        "Estatura":  1.73,
+        "IMC":  18.15
+    },
+    {
+        "Id":  234,
+        "IdCliente":  49,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  54.44,
+        "Estatura":  1.73,
+        "IMC":  18.19
+    },
+    {
+        "Id":  235,
+        "IdCliente":  50,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  54.45,
+        "Estatura":  1.78,
+        "IMC":  17.19
+    },
+    {
+        "Id":  236,
+        "IdCliente":  50,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  54.14,
+        "Estatura":  1.78,
+        "IMC":  17.09
+    },
+    {
+        "Id":  237,
+        "IdCliente":  50,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  54.16,
+        "Estatura":  1.78,
+        "IMC":  17.09
+    },
+    {
+        "Id":  238,
+        "IdCliente":  50,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  54.8,
+        "Estatura":  1.78,
+        "IMC":  17.3
+    },
+    {
+        "Id":  239,
+        "IdCliente":  50,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  54.41,
+        "Estatura":  1.78,
+        "IMC":  17.17
+    },
+    {
+        "Id":  240,
+        "IdCliente":  50,
+        "Fecha":  "2026-07-12T00:00:00",
+        "Peso":  54.45,
+        "Estatura":  1.78,
+        "IMC":  17.19
+    },
+    {
+        "Id":  241,
+        "IdCliente":  51,
+        "Fecha":  "2026-01-04T00:00:00",
+        "Peso":  88.16,
+        "Estatura":  1.52,
+        "IMC":  38.16
+    },
+    {
+        "Id":  242,
+        "IdCliente":  51,
+        "Fecha":  "2026-02-04T00:00:00",
+        "Peso":  87.92,
+        "Estatura":  1.52,
+        "IMC":  38.05
+    },
+    {
+        "Id":  243,
+        "IdCliente":  51,
+        "Fecha":  "2026-03-04T00:00:00",
+        "Peso":  87.82,
+        "Estatura":  1.52,
+        "IMC":  38.01
+    },
+    {
+        "Id":  244,
+        "IdCliente":  51,
+        "Fecha":  "2026-04-04T00:00:00",
+        "Peso":  87.74,
+        "Estatura":  1.52,
+        "IMC":  37.98
+    },
+    {
+        "Id":  245,
+        "IdCliente":  51,
+        "Fecha":  "2026-05-04T00:00:00",
+        "Peso":  88.39,
+        "Estatura":  1.52,
+        "IMC":  38.26
+    },
+    {
+        "Id":  246,
+        "IdCliente":  51,
+        "Fecha":  "2026-06-04T00:00:00",
+        "Peso":  88.16,
+        "Estatura":  1.52,
+        "IMC":  38.16
+    },
+    {
+        "Id":  247,
+        "IdCliente":  52,
+        "Fecha":  "2026-02-07T00:00:00",
+        "Peso":  85.42,
+        "Estatura":  1.86,
+        "IMC":  24.69
+    },
+    {
+        "Id":  248,
+        "IdCliente":  52,
+        "Fecha":  "2026-03-07T00:00:00",
+        "Peso":  85.06,
+        "Estatura":  1.86,
+        "IMC":  24.59
+    },
+    {
+        "Id":  249,
+        "IdCliente":  52,
+        "Fecha":  "2026-04-07T00:00:00",
+        "Peso":  85.3,
+        "Estatura":  1.86,
+        "IMC":  24.66
+    },
+    {
+        "Id":  250,
+        "IdCliente":  52,
+        "Fecha":  "2026-05-07T00:00:00",
+        "Peso":  85.76,
+        "Estatura":  1.86,
+        "IMC":  24.79
+    },
+    {
+        "Id":  251,
+        "IdCliente":  52,
+        "Fecha":  "2026-06-07T00:00:00",
+        "Peso":  85.14,
+        "Estatura":  1.86,
+        "IMC":  24.61
+    },
+    {
+        "Id":  252,
+        "IdCliente":  52,
+        "Fecha":  "2026-07-07T00:00:00",
+        "Peso":  85.42,
+        "Estatura":  1.86,
+        "IMC":  24.69
+    },
+    {
+        "Id":  253,
+        "IdCliente":  53,
+        "Fecha":  "2026-02-01T00:00:00",
+        "Peso":  52.33,
+        "Estatura":  1.95,
+        "IMC":  13.76
+    },
+    {
+        "Id":  254,
+        "IdCliente":  53,
+        "Fecha":  "2026-03-01T00:00:00",
+        "Peso":  52.16,
+        "Estatura":  1.95,
+        "IMC":  13.72
+    },
+    {
+        "Id":  255,
+        "IdCliente":  53,
+        "Fecha":  "2026-04-01T00:00:00",
+        "Peso":  52.44,
+        "Estatura":  1.95,
+        "IMC":  13.79
+    },
+    {
+        "Id":  256,
+        "IdCliente":  53,
+        "Fecha":  "2026-05-01T00:00:00",
+        "Peso":  52.77,
+        "Estatura":  1.95,
+        "IMC":  13.88
+    },
+    {
+        "Id":  257,
+        "IdCliente":  53,
+        "Fecha":  "2026-06-01T00:00:00",
+        "Peso":  52.36,
+        "Estatura":  1.95,
+        "IMC":  13.77
+    },
+    {
+        "Id":  258,
+        "IdCliente":  53,
+        "Fecha":  "2026-07-01T00:00:00",
+        "Peso":  52.33,
+        "Estatura":  1.95,
+        "IMC":  13.76
+    },
+    {
+        "Id":  259,
+        "IdCliente":  54,
+        "Fecha":  "2026-01-13T00:00:00",
+        "Peso":  88.15,
+        "Estatura":  1.8,
+        "IMC":  27.21
+    },
+    {
+        "Id":  260,
+        "IdCliente":  54,
+        "Fecha":  "2026-02-13T00:00:00",
+        "Peso":  88.28,
+        "Estatura":  1.8,
+        "IMC":  27.25
+    },
+    {
+        "Id":  261,
+        "IdCliente":  54,
+        "Fecha":  "2026-03-13T00:00:00",
+        "Peso":  87.81,
+        "Estatura":  1.8,
+        "IMC":  27.1
+    },
+    {
+        "Id":  262,
+        "IdCliente":  54,
+        "Fecha":  "2026-04-13T00:00:00",
+        "Peso":  88.22,
+        "Estatura":  1.8,
+        "IMC":  27.23
+    },
+    {
+        "Id":  263,
+        "IdCliente":  54,
+        "Fecha":  "2026-05-13T00:00:00",
+        "Peso":  88.44,
+        "Estatura":  1.8,
+        "IMC":  27.3
+    },
+    {
+        "Id":  264,
+        "IdCliente":  54,
+        "Fecha":  "2026-06-13T00:00:00",
+        "Peso":  88.15,
+        "Estatura":  1.8,
+        "IMC":  27.21
+    },
+    {
+        "Id":  265,
+        "IdCliente":  55,
+        "Fecha":  "2026-01-12T00:00:00",
+        "Peso":  90.46,
+        "Estatura":  1.94,
+        "IMC":  24.04
+    },
+    {
+        "Id":  266,
+        "IdCliente":  55,
+        "Fecha":  "2026-02-12T00:00:00",
+        "Peso":  90.59,
+        "Estatura":  1.94,
+        "IMC":  24.07
+    },
+    {
+        "Id":  267,
+        "IdCliente":  55,
+        "Fecha":  "2026-03-12T00:00:00",
+        "Peso":  89.98,
+        "Estatura":  1.94,
+        "IMC":  23.91
+    },
+    {
+        "Id":  268,
+        "IdCliente":  55,
+        "Fecha":  "2026-04-12T00:00:00",
+        "Peso":  90.15,
+        "Estatura":  1.94,
+        "IMC":  23.95
+    },
+    {
+        "Id":  269,
+        "IdCliente":  55,
+        "Fecha":  "2026-05-12T00:00:00",
+        "Peso":  90.9,
+        "Estatura":  1.94,
+        "IMC":  24.15
+    },
+    {
+        "Id":  270,
+        "IdCliente":  55,
+        "Fecha":  "2026-06-12T00:00:00",
+        "Peso":  90.46,
+        "Estatura":  1.94,
+        "IMC":  24.04
+    },
+    {
+        "Id":  271,
+        "IdCliente":  56,
+        "Fecha":  "2026-02-07T00:00:00",
+        "Peso":  50.9,
+        "Estatura":  1.63,
+        "IMC":  19.16
+    },
+    {
+        "Id":  272,
+        "IdCliente":  56,
+        "Fecha":  "2026-03-07T00:00:00",
+        "Peso":  50.55,
+        "Estatura":  1.63,
+        "IMC":  19.03
+    },
+    {
+        "Id":  273,
+        "IdCliente":  56,
+        "Fecha":  "2026-04-07T00:00:00",
+        "Peso":  50.9,
+        "Estatura":  1.63,
+        "IMC":  19.16
+    },
+    {
+        "Id":  274,
+        "IdCliente":  56,
+        "Fecha":  "2026-05-07T00:00:00",
+        "Peso":  50.99,
+        "Estatura":  1.63,
+        "IMC":  19.19
+    },
+    {
+        "Id":  275,
+        "IdCliente":  56,
+        "Fecha":  "2026-06-07T00:00:00",
+        "Peso":  50.42,
+        "Estatura":  1.63,
+        "IMC":  18.98
+    },
+    {
+        "Id":  276,
+        "IdCliente":  56,
+        "Fecha":  "2026-07-07T00:00:00",
+        "Peso":  50.9,
+        "Estatura":  1.63,
+        "IMC":  19.16
+    },
+    {
+        "Id":  277,
+        "IdCliente":  57,
+        "Fecha":  "2026-01-03T00:00:00",
+        "Peso":  63.4,
+        "Estatura":  1.73,
+        "IMC":  21.18
+    },
+    {
+        "Id":  278,
+        "IdCliente":  57,
+        "Fecha":  "2026-02-03T00:00:00",
+        "Peso":  63.59,
+        "Estatura":  1.73,
+        "IMC":  21.25
+    },
+    {
+        "Id":  279,
+        "IdCliente":  57,
+        "Fecha":  "2026-03-03T00:00:00",
+        "Peso":  63.26,
+        "Estatura":  1.73,
+        "IMC":  21.14
+    },
+    {
+        "Id":  280,
+        "IdCliente":  57,
+        "Fecha":  "2026-04-03T00:00:00",
+        "Peso":  63.3,
+        "Estatura":  1.73,
+        "IMC":  21.15
+    },
+    {
+        "Id":  281,
+        "IdCliente":  57,
+        "Fecha":  "2026-05-03T00:00:00",
+        "Peso":  62.94,
+        "Estatura":  1.73,
+        "IMC":  21.03
+    },
+    {
+        "Id":  282,
+        "IdCliente":  57,
+        "Fecha":  "2026-06-03T00:00:00",
+        "Peso":  63.4,
+        "Estatura":  1.73,
+        "IMC":  21.18
+    },
+    {
+        "Id":  283,
+        "IdCliente":  58,
+        "Fecha":  "2026-01-07T00:00:00",
+        "Peso":  50.02,
+        "Estatura":  1.55,
+        "IMC":  20.82
+    },
+    {
+        "Id":  284,
+        "IdCliente":  58,
+        "Fecha":  "2026-02-07T00:00:00",
+        "Peso":  50.11,
+        "Estatura":  1.55,
+        "IMC":  20.86
+    },
+    {
+        "Id":  285,
+        "IdCliente":  58,
+        "Fecha":  "2026-03-07T00:00:00",
+        "Peso":  49.58,
+        "Estatura":  1.55,
+        "IMC":  20.64
+    },
+    {
+        "Id":  286,
+        "IdCliente":  58,
+        "Fecha":  "2026-04-07T00:00:00",
+        "Peso":  49.61,
+        "Estatura":  1.55,
+        "IMC":  20.65
+    },
+    {
+        "Id":  287,
+        "IdCliente":  58,
+        "Fecha":  "2026-05-07T00:00:00",
+        "Peso":  50.25,
+        "Estatura":  1.55,
+        "IMC":  20.92
+    },
+    {
+        "Id":  288,
+        "IdCliente":  58,
+        "Fecha":  "2026-06-07T00:00:00",
+        "Peso":  50.02,
+        "Estatura":  1.55,
+        "IMC":  20.82
+    },
+    {
+        "Id":  289,
+        "IdCliente":  59,
+        "Fecha":  "2026-02-14T00:00:00",
+        "Peso":  69.45,
+        "Estatura":  1.74,
+        "IMC":  22.94
+    },
+    {
+        "Id":  290,
+        "IdCliente":  59,
+        "Fecha":  "2026-03-14T00:00:00",
+        "Peso":  68.99,
+        "Estatura":  1.74,
+        "IMC":  22.79
+    },
+    {
+        "Id":  291,
+        "IdCliente":  59,
+        "Fecha":  "2026-04-14T00:00:00",
+        "Peso":  69.11,
+        "Estatura":  1.74,
+        "IMC":  22.83
+    },
+    {
+        "Id":  292,
+        "IdCliente":  59,
+        "Fecha":  "2026-05-14T00:00:00",
+        "Peso":  69.61,
+        "Estatura":  1.74,
+        "IMC":  22.99
+    },
+    {
+        "Id":  293,
+        "IdCliente":  59,
+        "Fecha":  "2026-06-14T00:00:00",
+        "Peso":  69.41,
+        "Estatura":  1.74,
+        "IMC":  22.93
+    },
+    {
+        "Id":  294,
+        "IdCliente":  59,
+        "Fecha":  "2026-07-14T00:00:00",
+        "Peso":  69.45,
+        "Estatura":  1.74,
+        "IMC":  22.94
+    },
+    {
+        "Id":  295,
+        "IdCliente":  60,
+        "Fecha":  "2026-01-30T00:00:00",
+        "Peso":  96.54,
+        "Estatura":  1.51,
+        "IMC":  42.34
+    },
+    {
+        "Id":  296,
+        "IdCliente":  60,
+        "Fecha":  "2026-02-28T00:00:00",
+        "Peso":  96.07,
+        "Estatura":  1.51,
+        "IMC":  42.13
+    },
+    {
+        "Id":  297,
+        "IdCliente":  60,
+        "Fecha":  "2026-03-30T00:00:00",
+        "Peso":  96.34,
+        "Estatura":  1.51,
+        "IMC":  42.25
+    },
+    {
+        "Id":  298,
+        "IdCliente":  60,
+        "Fecha":  "2026-04-30T00:00:00",
+        "Peso":  96.88,
+        "Estatura":  1.51,
+        "IMC":  42.49
+    },
+    {
+        "Id":  299,
+        "IdCliente":  60,
+        "Fecha":  "2026-05-30T00:00:00",
+        "Peso":  97,
+        "Estatura":  1.51,
+        "IMC":  42.54
+    },
+    {
+        "Id":  300,
+        "IdCliente":  60,
+        "Fecha":  "2026-06-30T00:00:00",
+        "Peso":  96.54,
+        "Estatura":  1.51,
+        "IMC":  42.34
+    },
+    {
+        "Id":  301,
+        "IdCliente":  61,
+        "Fecha":  "2026-02-01T00:00:00",
+        "Peso":  58.32,
+        "Estatura":  1.72,
+        "IMC":  19.71
+    },
+    {
+        "Id":  302,
+        "IdCliente":  61,
+        "Fecha":  "2026-03-01T00:00:00",
+        "Peso":  57.85,
+        "Estatura":  1.72,
+        "IMC":  19.55
+    },
+    {
+        "Id":  303,
+        "IdCliente":  61,
+        "Fecha":  "2026-04-01T00:00:00",
+        "Peso":  58.46,
+        "Estatura":  1.72,
+        "IMC":  19.76
+    },
+    {
+        "Id":  304,
+        "IdCliente":  61,
+        "Fecha":  "2026-05-01T00:00:00",
+        "Peso":  57.88,
+        "Estatura":  1.72,
+        "IMC":  19.56
+    },
+    {
+        "Id":  305,
+        "IdCliente":  61,
+        "Fecha":  "2026-06-01T00:00:00",
+        "Peso":  58.29,
+        "Estatura":  1.72,
+        "IMC":  19.7
+    },
+    {
+        "Id":  306,
+        "IdCliente":  61,
+        "Fecha":  "2026-07-01T00:00:00",
+        "Peso":  58.32,
+        "Estatura":  1.72,
+        "IMC":  19.71
+    }
+]

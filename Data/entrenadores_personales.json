@@ -1,0 +1,463 @@
+[
+    {
+        "ClientesAsignados":  [
+
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  1,
+        "Nombre":  "Carlos Vargas",
+        "NombreUsuario":  "carlosfit",
+        "Edad":  28,
+        "ContrasenaHash":  "AwPWZlY62fbBidbrYGTGLQ==:ethrnP6LDMdy6U/jLDovKFQzKZkGZKijGK17LRq9+wA="
+    },
+    {
+        "ClientesAsignados":  [
+                                  12,
+                                  52
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  3,
+        "Nombre":  "Esteban Jiménez Méndez",
+        "NombreUsuario":  "personal_demo_001",
+        "Edad":  26,
+        "ContrasenaHash":  "BzBjUAuUpr3QLjW1Tlmc8g==:fXvPnFzpl2WXNg5RjdkFuYH3o5i/f5opiq0sfpaxf04="
+    },
+    {
+        "ClientesAsignados":  [
+                                  13,
+                                  53
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  5,
+        "Nombre":  "Natalia Aguilar Hernández",
+        "NombreUsuario":  "personal_demo_002",
+        "Edad":  35,
+        "ContrasenaHash":  "EC7W3XXb8avgDRX5idaXBw==:2065cg8ITbVQyGcagY4094oFE5zCUAWZagOiXfvx4KM="
+    },
+    {
+        "ClientesAsignados":  [
+                                  14,
+                                  54
+                              ],
+        "ClaseImpartida":  "CrossFit",
+        "Id":  7,
+        "Nombre":  "Adrián Rojas Araya",
+        "NombreUsuario":  "personal_demo_003",
+        "Edad":  37,
+        "ContrasenaHash":  "LbojbI+4UtNX4TPsY73QoQ==:GVYmKoi+2fwMW5X1+fB7QiTrYADyidcG8J+3UUhM/Q4="
+    },
+    {
+        "ClientesAsignados":  [
+                                  15,
+                                  55
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  9,
+        "Nombre":  "Paula Sánchez Montero",
+        "NombreUsuario":  "personal_demo_004",
+        "Edad":  47,
+        "ContrasenaHash":  "p/dw2tiun9cK1rHVEW8iDQ==:dLDVGa5GHUeImy2O1ES7D7UAAiNipP4mk6TTdQhYkag="
+    },
+    {
+        "ClientesAsignados":  [
+                                  16,
+                                  56
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  11,
+        "Nombre":  "José Méndez Rodríguez",
+        "NombreUsuario":  "personal_demo_005",
+        "Edad":  32,
+        "ContrasenaHash":  "U/GrU8xuV7A9OO6JnX15wQ==:DClKlp597BX8iXb80RnGib9/+h8szfWtEqlHawD4Qkw="
+    },
+    {
+        "ClientesAsignados":  [
+                                  17,
+                                  57
+                              ],
+        "ClaseImpartida":  "Zumba",
+        "Id":  13,
+        "Nombre":  "Fernanda Castro Montero",
+        "NombreUsuario":  "personal_demo_006",
+        "Edad":  53,
+        "ContrasenaHash":  "oSC8YPZKzT5I4JxXBzAkKQ==:exE9aEcNYPesm6qNwO0FI1fWI7TtGQnwBfAowgDTs20="
+    },
+    {
+        "ClientesAsignados":  [
+                                  18,
+                                  58
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  15,
+        "Nombre":  "David Mora Ramírez",
+        "NombreUsuario":  "personal_demo_007",
+        "Edad":  25,
+        "ContrasenaHash":  "BaLjvny1TSGYkBiGS/YOqg==:cPaCpdNZdYmBFNnL7pGChXrw95hK4axPpHTi37KSb2M="
+    },
+    {
+        "ClientesAsignados":  [
+                                  19,
+                                  59
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  17,
+        "Nombre":  "Laura Castro Sánchez",
+        "NombreUsuario":  "personal_demo_008",
+        "Edad":  42,
+        "ContrasenaHash":  "lBQ5bQ+vftjyrISpGx5Hhg==:5wS66GD0A9Vy52Q75o+F5RbP948qKQDlMhyaMtQc+7c="
+    },
+    {
+        "ClientesAsignados":  [
+                                  20,
+                                  60
+                              ],
+        "ClaseImpartida":  "Gimnasio abierto",
+        "Id":  19,
+        "Nombre":  "Alejandro Mora Salazar",
+        "NombreUsuario":  "personal_demo_009",
+        "Edad":  41,
+        "ContrasenaHash":  "s0DIVJPpmrkj4G+xfZXaVg==:PUKfKSlGtHadnjBIS9UFzl7GZ1k4FIvKm/uGdxUNpjE="
+    },
+    {
+        "ClientesAsignados":  [
+                                  21,
+                                  61
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  21,
+        "Nombre":  "Carolina Salazar Alvarado",
+        "NombreUsuario":  "personal_demo_010",
+        "Edad":  42,
+        "ContrasenaHash":  "Qtg4W5U62xi6ipbGZkR7Ig==:YhI5d/0M+9Uk8ROXA+3YoW0sX5lbCsY1EH7IlZ6kVTw="
+    },
+    {
+        "ClientesAsignados":  [
+                                  22
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  23,
+        "Nombre":  "Marco Castro Vargas",
+        "NombreUsuario":  "personal_demo_011",
+        "Edad":  35,
+        "ContrasenaHash":  "NFkGypwrFlmPJJkVuuawQw==:sfowCa6znXtPLtwGhpvI8lqoA/yxyfYdLUY3tBCdq1k="
+    },
+    {
+        "ClientesAsignados":  [
+                                  23
+                              ],
+        "ClaseImpartida":  "Spinning",
+        "Id":  25,
+        "Nombre":  "Daniela Solís Salazar",
+        "NombreUsuario":  "personal_demo_012",
+        "Edad":  53,
+        "ContrasenaHash":  "dXCJsRXyUO3UslZ+tzh8hQ==:q23Gh6KU7dRPjg401jSxD7MDwKv0j1/7PTLDeCFvxRI="
+    },
+    {
+        "ClientesAsignados":  [
+                                  24
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  27,
+        "Nombre":  "Luis Montero Araya",
+        "NombreUsuario":  "personal_demo_013",
+        "Edad":  55,
+        "ContrasenaHash":  "6nkbvWPBHmxn0ooQoGqFzQ==:s7wNIoBQ1EEjztqCkc09tmt3Ts7WWEEwzYAFpFQo6Go="
+    },
+    {
+        "ClientesAsignados":  [
+                                  25
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  29,
+        "Nombre":  "Gabriela Castro Aguilar",
+        "NombreUsuario":  "personal_demo_014",
+        "Edad":  37,
+        "ContrasenaHash":  "eICVoZQc/t39Lztuxa3nLg==:0bvG5drWPA+N+oVQLFq+9e30pDBZ25ZdeeuOzGSVkkU="
+    },
+    {
+        "ClientesAsignados":  [
+                                  26
+                              ],
+        "ClaseImpartida":  "Yoga",
+        "Id":  31,
+        "Nombre":  "Javier Aguilar Aguilar",
+        "NombreUsuario":  "personal_demo_015",
+        "Edad":  33,
+        "ContrasenaHash":  "Xq8npG8WoNBGhYP/4gmg2w==:R52tCcsDnM6jMPv/iQxZmXuSTLAzpJ1YA2vU6uYVGS8="
+    },
+    {
+        "ClientesAsignados":  [
+                                  27
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  33,
+        "Nombre":  "Victoria Aguilar Quesada",
+        "NombreUsuario":  "personal_demo_016",
+        "Edad":  50,
+        "ContrasenaHash":  "6NdAQWNxxoY1YH6RKC2gVQ==:cv3y6P+YzeulKieOsVdTbTxX7KNohdrZ1ZayakH9lxQ="
+    },
+    {
+        "ClientesAsignados":  [
+                                  28
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  35,
+        "Nombre":  "Felipe Montero Rodríguez",
+        "NombreUsuario":  "personal_demo_017",
+        "Edad":  55,
+        "ContrasenaHash":  "iQPJOr2hCu52LxkJxeaZ7A==:+HCg5Y2DuiH0RB3bgBfaaMbjSQEhUQnJ801/Zs7J+jk="
+    },
+    {
+        "ClientesAsignados":  [
+                                  29
+                              ],
+        "ClaseImpartida":  "CrossFit",
+        "Id":  37,
+        "Nombre":  "Elena Castro Salazar",
+        "NombreUsuario":  "personal_demo_018",
+        "Edad":  29,
+        "ContrasenaHash":  "LYOSHb1ITIQndqo5XmOkGw==:XsK+kfsWViVOjvceAb7h+WeNHxQnG23Z4snZRg+0W1g="
+    },
+    {
+        "ClientesAsignados":  [
+                                  30
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  39,
+        "Nombre":  "Pablo González Rojas",
+        "NombreUsuario":  "personal_demo_019",
+        "Edad":  26,
+        "ContrasenaHash":  "V5MkBjEsB9xAXa4C8nY+mw==:s1M/J0wxTuLaSx6m+hLKVjmqbQEgKe0nCKKUrf74kGs="
+    },
+    {
+        "ClientesAsignados":  [
+                                  31
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  41,
+        "Nombre":  "Ana Ramírez Castro",
+        "NombreUsuario":  "personal_demo_020",
+        "Edad":  44,
+        "ContrasenaHash":  "YmPSsHt58fR2us+yeU63ZA==:CD9PUqHEOr/Ht+aMYMyeMe131fDcA3v1uXpABVvXFME="
+    },
+    {
+        "ClientesAsignados":  [
+                                  32
+                              ],
+        "ClaseImpartida":  "Zumba",
+        "Id":  43,
+        "Nombre":  "Cristian Sánchez Vargas",
+        "NombreUsuario":  "personal_demo_021",
+        "Edad":  26,
+        "ContrasenaHash":  "fGFnfJ53lSUS36hdb9kijw==:rsglQqfZLGTo4jOhj9nVKIUIHC5Z5uzqeJsDsZiSmFA="
+    },
+    {
+        "ClientesAsignados":  [
+                                  33
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  45,
+        "Nombre":  "Melissa Aguilar Sánchez",
+        "NombreUsuario":  "personal_demo_022",
+        "Edad":  30,
+        "ContrasenaHash":  "XfcFKG8QrWOBrnGY3SplYw==:g7b4lbZz+UI0I+6qUfyL+ys196Myjjb+7tqprn1GQAs="
+    },
+    {
+        "ClientesAsignados":  [
+                                  34
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  47,
+        "Nombre":  "Ricardo Araya González",
+        "NombreUsuario":  "personal_demo_023",
+        "Edad":  40,
+        "ContrasenaHash":  "qfZaZz6chcazKnmXx3/mpg==:EpFFP4tANaYy9iQoIw19qxgcfThINH7JTiL24nRg5Vo="
+    },
+    {
+        "ClientesAsignados":  [
+                                  35
+                              ],
+        "ClaseImpartida":  "Gimnasio abierto",
+        "Id":  49,
+        "Nombre":  "Andrea Vega Castro",
+        "NombreUsuario":  "personal_demo_024",
+        "Edad":  44,
+        "ContrasenaHash":  "NbNn07PMBZbckGFlsI600g==:zv2YZmYbvpJmANlaP5sU0uzoiuZhGTfz+4asXAmYrFY="
+    },
+    {
+        "ClientesAsignados":  [
+                                  36
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  51,
+        "Nombre":  "Jorge Rojas Araya",
+        "NombreUsuario":  "personal_demo_025",
+        "Edad":  27,
+        "ContrasenaHash":  "WdVtbBcwyfcvUz6G3KQ3oQ==:sEewEbv64LT77FdtD7L0azWCdPyNrn6NeUF4NWlR3PE="
+    },
+    {
+        "ClientesAsignados":  [
+                                  37
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  53,
+        "Nombre":  "Patricia Rodríguez Aguilar",
+        "NombreUsuario":  "personal_demo_026",
+        "Edad":  37,
+        "ContrasenaHash":  "F4C8mgkjzo5PiR8+Tn4MfQ==:fd7vkhne8qKHb52ga1ph/m9lO/nkQjlxC6KDIvlZCVw="
+    },
+    {
+        "ClientesAsignados":  [
+                                  38
+                              ],
+        "ClaseImpartida":  "Spinning",
+        "Id":  55,
+        "Nombre":  "Mauricio Salazar Salazar",
+        "NombreUsuario":  "personal_demo_027",
+        "Edad":  24,
+        "ContrasenaHash":  "Itw3rq93IEvnQ6lahZXNmQ==:LJi1qpKxGST8ftzKF+pHiz5te7Gvu51l94nrCfE1ZtE="
+    },
+    {
+        "ClientesAsignados":  [
+                                  39
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  57,
+        "Nombre":  "Tatiana Aguilar Ramírez",
+        "NombreUsuario":  "personal_demo_028",
+        "Edad":  41,
+        "ContrasenaHash":  "q9YX8ZMHomlpGd9v9+ZIhQ==:Nv63+8zxKWIj/Jv5ZZ1lmoeqNfPHUTIOZc07U7lPFfQ="
+    },
+    {
+        "ClientesAsignados":  [
+                                  40
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  59,
+        "Nombre":  "Kevin Alvarado Quesada",
+        "NombreUsuario":  "personal_demo_029",
+        "Edad":  46,
+        "ContrasenaHash":  "sAP8/pdO0SvGntJEhq1PvQ==:ESXvOqN5OgaSehCgRxcTKvM+zGWahHFyymYk+/ZrDW8="
+    },
+    {
+        "ClientesAsignados":  [
+                                  41
+                              ],
+        "ClaseImpartida":  "Yoga",
+        "Id":  61,
+        "Nombre":  "Rebeca Ramírez Rodríguez",
+        "NombreUsuario":  "personal_demo_030",
+        "Edad":  39,
+        "ContrasenaHash":  "iy/d+23ENOBFuGdynZqTbQ==:9UVlDIPU0coPCapBEQR4y8RdKbBySxW6ee+96VymKsk="
+    },
+    {
+        "ClientesAsignados":  [
+                                  42
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  63,
+        "Nombre":  "Isaac Aguilar Salazar",
+        "NombreUsuario":  "personal_demo_031",
+        "Edad":  51,
+        "ContrasenaHash":  "t24gWlBDSrbBxM6GL9aoAw==:zWbUX35RUWtuIaGHHUKZujVVPlui2tP6iDkWxHunLHw="
+    },
+    {
+        "ClientesAsignados":  [
+                                  43
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  65,
+        "Nombre":  "Sara Salazar Montero",
+        "NombreUsuario":  "personal_demo_032",
+        "Edad":  43,
+        "ContrasenaHash":  "WUYT2I5UHd9F/v2LmXSC/g==:WFU7PwkChSzL3DElUpFJGQWZ/HsA/uVlD+39lUqY/3U="
+    },
+    {
+        "ClientesAsignados":  [
+                                  44
+                              ],
+        "ClaseImpartida":  "CrossFit",
+        "Id":  67,
+        "Nombre":  "Antonio Sánchez Castro",
+        "NombreUsuario":  "personal_demo_033",
+        "Edad":  47,
+        "ContrasenaHash":  "mqkN3GCmVM4IkoSEy/b+Mg==:9SnIbzcHdriKRJJf77yHkzjN+lrrct1tP574VR5cqOo="
+    },
+    {
+        "ClientesAsignados":  [
+                                  45
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  69,
+        "Nombre":  "Nicole Quesada Castro",
+        "NombreUsuario":  "personal_demo_034",
+        "Edad":  41,
+        "ContrasenaHash":  "/TDemYmaxuc7sdcFtEj6Vw==:w+RCCjHGcUcGNbJvzHIdYIZFAr0WZ6HKq/f6Jn0leLI="
+    },
+    {
+        "ClientesAsignados":  [
+                                  46
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  71,
+        "Nombre":  "Emmanuel Ramírez Jiménez",
+        "NombreUsuario":  "personal_demo_035",
+        "Edad":  29,
+        "ContrasenaHash":  "Oe/MpqkQwj09P6LitqvR0Q==:3ZbnUZiRwKz+XdJFBY1jI+zj0xpgj45dQ6r/y/t6XKs="
+    },
+    {
+        "ClientesAsignados":  [
+                                  47
+                              ],
+        "ClaseImpartida":  "Zumba",
+        "Id":  73,
+        "Nombre":  "Jimena Alvarado Vargas",
+        "NombreUsuario":  "personal_demo_036",
+        "Edad":  38,
+        "ContrasenaHash":  "RVaLsAIKLzffBKdps7ziGQ==:1wESgD9F3r7DLr8s7n95vJQSLwvfsDzKxe29No3zQ4c="
+    },
+    {
+        "ClientesAsignados":  [
+                                  48
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  75,
+        "Nombre":  "Mateo Alvarado Alvarado",
+        "NombreUsuario":  "personal_demo_037",
+        "Edad":  33,
+        "ContrasenaHash":  "gJZc8Ua50ZxBIRqphQ3amg==:JkNoQKE2aRkUEw53aPAO400gSQKvGZX8l/K595vWEPY="
+    },
+    {
+        "ClientesAsignados":  [
+                                  49
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  77,
+        "Nombre":  "Alison Ramírez Vega",
+        "NombreUsuario":  "personal_demo_038",
+        "Edad":  26,
+        "ContrasenaHash":  "phWJsJRsIPDNAlhqw4lttg==:Z7l7xhkJf6XOVxj58YPn/yVEOMnb5BDTqSRrLuKwwNc="
+    },
+    {
+        "ClientesAsignados":  [
+                                  50
+                              ],
+        "ClaseImpartida":  "Gimnasio abierto",
+        "Id":  79,
+        "Nombre":  "Samuel Aguilar Vargas",
+        "NombreUsuario":  "personal_demo_039",
+        "Edad":  28,
+        "ContrasenaHash":  "QbPSU1o/YqXf3BK2TqCq+w==:AhzlgVbRHHD2SljnBMPLAfIpjzC0qqmcMIc8PmmsBtM="
+    },
+    {
+        "ClientesAsignados":  [
+                                  51
+                              ],
+        "ClaseImpartida":  "Ninguna",
+        "Id":  81,
+        "Nombre":  "Mariana Ramírez Chaves",
+        "NombreUsuario":  "personal_demo_040",
+        "Edad":  37,
+        "ContrasenaHash":  "UWkMHZ6+DCWOnncP1ykmnQ==:Z1L/w0sKnQIQSWc9JCkxSxw57Zy32SqGn+iGx4T4+zw="
+    }
+]
