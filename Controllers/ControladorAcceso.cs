@@ -6,47 +6,65 @@ using FitCR.Services;
 
 namespace FitCR.Controllers
 {
-	public class ControladorAcceso
-	{
-		private readonly IRepositorio<Cliente> repositorio;
-		private readonly Contrasenas servicio;
+    public class ControladorAcceso
+    {
+        private readonly IRepositorio<Cliente>repositorioClientes;
+        private readonly IRepositorio<EntrenadorPersonal>repositorioPersonales;
+        private readonly IRepositorio<EntrenadorGimnasio>repositorioGimnasio;
+        private readonly Contrasenas servicio;
 
-		public ControladorAcceso(IRepositorio<Cliente> repositorioRecibido)
-		{
-			repositorio = repositorioRecibido;
-			servicio = new Contrasenas();
-		}
+        public ControladorAcceso(
+            IRepositorio<Cliente> clientes,
+            IRepositorio<EntrenadorPersonal> personales,
+            IRepositorio<EntrenadorGimnasio> gimnasio)
+        {
+            repositorioClientes = clientes;
+            repositorioPersonales = personales;
+            repositorioGimnasio = gimnasio;
 
-		public Cliente? IniciarSesion(string nombreUsuario, string contrasena)
-		{
-			List<Cliente> clientes = repositorio.ObtenerTodos();
+            servicio = new Contrasenas();
+        }
 
-			foreach (Cliente cliente in clientes)
-			{
-				// Validamos
-				if (cliente.NombreUsuario.Equals(
-					nombreUsuario.Trim(),
-					StringComparison.OrdinalIgnoreCase))
-				{
-					if (string.IsNullOrEmpty(cliente.ContrasenaHash))
-					{
-						return null;
-					}
+        public Usuario? IniciarSesion(
+            string nombreUsuario,
+            string contrasena)
+        {
+            List<Usuario> usuarios = new List<Usuario>();
 
-					bool contrasenaCorrecta = servicio.VerificarContrasena(
-						contrasena,
-						cliente.ContrasenaHash
-					);
+            usuarios.AddRange(
+                repositorioClientes.ObtenerTodos());
 
-					if (contrasenaCorrecta)
-					{
-						return cliente;
-					}
-				}
-			}
+            usuarios.AddRange(
+                repositorioPersonales.ObtenerTodos());
 
-			return null;
-		}
-	}
+            usuarios.AddRange(
+                repositorioGimnasio.ObtenerTodos());
+
+            foreach (Usuario usuario in usuarios)
+            {
+                if (usuario.NombreUsuario.Equals(
+                    nombreUsuario.Trim(),
+                    StringComparison.OrdinalIgnoreCase))
+                {
+                    if (string.IsNullOrEmpty(
+                        usuario.ContrasenaHash))
+                    {
+                        return null;
+                    }
+
+                    bool contrasenaCorrecta =
+                        servicio.VerificarContrasena(
+                            contrasena,
+                            usuario.ContrasenaHash);
+
+                    if (contrasenaCorrecta)
+                    {
+                        return usuario;
+                    }
+                }
+            }
+
+            return null;
+        }
+    }
 }
-

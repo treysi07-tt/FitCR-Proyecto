@@ -76,11 +76,11 @@ namespace FitCR.Views.Clientes
 
             Label labelTitulo = new Label();
             labelTitulo.Text = "Mi progreso personal";
-            labelTitulo.Location = new Point(340, 20);
-            labelTitulo.Size = new Size(450, 45);
-            labelTitulo.Font = new Font(
-                "Segoe UI", 20, FontStyle.Bold
-            );
+            labelTitulo.Font = new Font("Segoe UI", 24, FontStyle.Bold);
+            labelTitulo.Location = new Point(30, 5);
+            labelTitulo.Size = new Size(970, 65);
+            labelTitulo.AutoSize = false;
+            labelTitulo.TextAlign = ContentAlignment.MiddleCenter;
 
             Label labelCliente = new Label();
             labelCliente.Text = "Cliente: " + cliente.Nombre;

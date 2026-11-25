@@ -16,9 +16,16 @@ namespace FitCR.Views.Clientes
         private readonly ControladorRutinas controlador;
         private DataGridView tablaRutinas;
         private readonly bool mostrarUltimasCinco;
+        private readonly bool soloLectura;
 
-        private void buttonCompletar_Click(object? sender, EventArgs e)
+        private void buttonCompletar_Click(
+            object? sender, EventArgs e)
         {
+            if (soloLectura)
+            {
+                return;
+            }
+
             if (tablaRutinas.SelectedRows.Count == 0)
             {
                 MessageBox.Show(
@@ -27,7 +34,8 @@ namespace FitCR.Views.Clientes
                 return;
             }
 
-            DataGridViewRow fila = tablaRutinas.SelectedRows[0];
+            DataGridViewRow fila =
+                tablaRutinas.SelectedRows[0];
 
             if (fila.Cells["Id"].Value == null)
             {
@@ -94,13 +102,14 @@ namespace FitCR.Views.Clientes
 
         public FormVerRutinas(
             Cliente clienteRecibido,
-            bool soloUltimasCinco = false)
+            bool ultimasCinco = false,
+            bool soloLectura = false)
         {
             InitializeComponent();
 
             cliente = clienteRecibido;
-            mostrarUltimasCinco = soloUltimasCinco;
-
+            mostrarUltimasCinco = ultimasCinco;
+            this.soloLectura = soloLectura;
 
             string ruta = Path.Combine(
                 AppContext.BaseDirectory,
@@ -115,21 +124,31 @@ namespace FitCR.Views.Clientes
 
             Text = mostrarUltimasCinco
                 ? "Últimas 5 rutinas"
-                : "Ver mis rutinas";
+                : soloLectura
+                    ? "Rutinas del cliente"
+                    : "Ver mis rutinas";
+
             ClientSize = new Size(1200, 650);
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
 
             Label labelTitulo = new Label();
+
             labelTitulo.Text = mostrarUltimasCinco
                 ? "Últimas 5 rutinas"
-                : "Mis rutinas registradas";
-            labelTitulo.Location = new Point(30, 20);
-            labelTitulo.Size = new Size(500, 45);
+                : soloLectura
+                    ? "Rutinas del cliente"
+                    : "Mis rutinas registradas";
+
+            labelTitulo.Location = new Point(30, 10);
+            labelTitulo.Size = new Size(1140, 60);
             labelTitulo.Font = new Font(
                 "Segoe UI", 17, FontStyle.Bold
             );
+            labelTitulo.AutoSize = false;
+            labelTitulo.TextAlign =
+                ContentAlignment.MiddleCenter;
 
             Label labelCliente = new Label();
             labelCliente.Text = "Cliente: " + cliente.Nombre;
@@ -150,25 +169,29 @@ namespace FitCR.Views.Clientes
             tablaRutinas.SelectionMode =
                 DataGridViewSelectionMode.FullRowSelect;
             tablaRutinas.MultiSelect = false;
-            tablaRutinas.AutoSizeColumnsMode =
-                DataGridViewAutoSizeColumnsMode.Fill;
 
             Button buttonCompletar = new Button();
             buttonCompletar.Text = "Marcar como completada";
             buttonCompletar.Location = new Point(100, 555);
             buttonCompletar.Size = new Size(300, 50);
             buttonCompletar.Click += buttonCompletar_Click;
+            buttonCompletar.Visible = !soloLectura;
+            buttonCompletar.Enabled = !soloLectura;
 
             Button buttonActualizar = new Button();
             buttonActualizar.Text = "Actualizar";
-            buttonActualizar.Location = new Point(4500, 555);
+            buttonActualizar.Location = soloLectura
+                ? new Point(300, 555)
+                : new Point(450, 555);
             buttonActualizar.Size = new Size(250, 50);
             buttonActualizar.Click += (sender, e) =>
                 CargarRutinas();
 
             Button buttonVolver = new Button();
             buttonVolver.Text = "Volver";
-            buttonVolver.Location = new Point(750, 555);
+            buttonVolver.Location = soloLectura
+                ? new Point(650, 555)
+                : new Point(750, 555);
             buttonVolver.Size = new Size(250, 50);
             buttonVolver.Click += (sender, e) => Close();
 
@@ -178,6 +201,7 @@ namespace FitCR.Views.Clientes
             Controls.Add(buttonActualizar);
             Controls.Add(buttonVolver);
             Controls.Add(buttonCompletar);
+
             CargarRutinas();
         }
 
@@ -191,7 +215,6 @@ namespace FitCR.Views.Clientes
 
                 var rutinas = listaRutinas
                     .Select(r => new
-
                     {
                         r.Id,
                         r.Nombre,
@@ -234,7 +257,9 @@ namespace FitCR.Views.Clientes
                 if (rutinas.Count == 0)
                 {
                     MessageBox.Show(
-                        "Todavía no tienes rutinas registradas. Registra una",
+                        soloLectura
+                            ? "Este cliente todavía no tiene rutinas registradas."
+                            : "Todavía no tienes rutinas registradas. Registra una",
                         "Fit.CR",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information
@@ -269,9 +294,9 @@ namespace FitCR.Views.Clientes
 
             if (columna != null)
             {
-                columna.DefaultCellStyle.Format = "dd/MM/yyyy";
+                columna.DefaultCellStyle.Format =
+                    "dd/MM/yyyy";
             }
         }
     }
 }
-

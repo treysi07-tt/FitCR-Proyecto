@@ -58,6 +58,12 @@ namespace FitCR.Controllers
                     "El cliente no es válido.");
             }
 
+            ServicioClases servicioClases =
+                new ServicioClases();
+
+            bool cumpleAtletaVersatil =
+                servicioClases.CumpleAtletaVersatil(idCliente);
+
             var controladorProgreso =
                 new ControladorProgresoObjetivos(
                     repositorioObjetivos,
@@ -185,6 +191,8 @@ namespace FitCR.Controllers
                         .Distinct(
                             StringComparer.OrdinalIgnoreCase)
                         .Count() >= 10,
+
+                    33 => cumpleAtletaVersatil,
 
                     35 => TieneInactividad(visitas),
                     36 => objetivos.Any(o =>
@@ -335,6 +343,17 @@ namespace FitCR.Controllers
 
             return diasSinAsistir >= 15;
         }
+
+        private bool EstaDisponible(int idInsignia)
+        {
+            int[] pendientes =
+            {
+        8, 16, 17, 25, 34, 37, 38
+    };
+
+            return !pendientes.Contains(idInsignia);
+        }
+
     }
 }
 

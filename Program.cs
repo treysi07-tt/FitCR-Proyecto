@@ -1,5 +1,6 @@
 namespace FitCR;
 
+
 static class Program
 {
 

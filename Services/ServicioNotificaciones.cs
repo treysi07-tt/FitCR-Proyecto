@@ -42,6 +42,7 @@ namespace FitCR.Services
             cantidad += NotificarMedidas(cliente.Id);
             cantidad += NotificarObjetivos(cliente.Id);
             cantidad += NotificarInsignias(cliente.Id);
+            NotificarClases(cliente.Id);
 
             return cantidad;
         }
@@ -293,6 +294,88 @@ namespace FitCR.Services
             }
 
             return cantidad;
+        }
+        private int NotificarClases(int idCliente)
+        {
+            ServicioClases servicioClases =
+                new ServicioClases();
+
+            ControladorNotificaciones controladorClases =
+                new ControladorNotificaciones(
+                    new RepositorioJson<Notificacion>(
+                        Path.Combine(
+                            AppContext.BaseDirectory,
+                            "Data",
+                            "notificaciones.json"
+                        )
+                    )
+                );
+
+            int cantidadAnterior = controladorClases
+                .ObtenerNotificaciones(idCliente).Count;
+
+            var inscripciones = servicioClases
+                .ObtenerInscripcionesCliente(idCliente);
+
+            foreach (var inscripcion in inscripciones)
+            {
+                var clase = servicioClases.ObtenerClase(
+                    inscripcion.IdClase
+                );
+
+                controladorClases.RegistrarNotificacion(
+                    idCliente,
+                    "Inscripción a una clase",
+                    "Te has inscrito en la clase de " +
+                        clase.Nombre + ", programada para el " +
+                        clase.FechaHora.ToString("dd/MM/yyyy HH:mm") +
+                        ".",
+                    "Clases",
+                    "clase_inscripcion_" +
+                        clase.Id + "_" +
+                        inscripcion.FechaInscripcion.Ticks,
+                    inscripcion.FechaInscripcion
+                );
+
+                if (clase.Cancelada)
+                {
+                    controladorClases.RegistrarNotificacion(
+                        idCliente,
+                        "Clase cancelada",
+                        "La clase de " + clase.Nombre +
+                            ", programada para el " +
+                            clase.FechaHora.ToString("dd/MM/yyyy HH:mm") +
+                            ", ha sido cancelada.",
+                        "Clases",
+                        "clase_cancelada_" + clase.Id
+                    );
+                }
+            }
+
+            var asistencias = servicioClases
+                .ObtenerAsistenciasCliente(idCliente);
+
+            foreach (var asistencia in asistencias)
+            {
+                var clase = servicioClases.ObtenerClase(
+                    asistencia.IdClase
+                );
+
+                controladorClases.RegistrarNotificacion(
+                    idCliente,
+                    "Asistencia registrada",
+                    "Se ha registrado tu asistencia a la clase de " +
+                        clase.Nombre + ".",
+                    "Clases",
+                    "clase_asistencia_" + asistencia.Id,
+                    asistencia.FechaAsistencia
+                );
+            }
+
+            int cantidadActual = controladorClases
+                .ObtenerNotificaciones(idCliente).Count;
+
+            return cantidadActual - cantidadAnterior;
         }
     }
 }

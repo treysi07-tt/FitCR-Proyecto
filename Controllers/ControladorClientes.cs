@@ -1,18 +1,21 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using FitCR.Interfaces;
 using FitCR.Models.Usuarios;
+using FitCR.Services;
 
 namespace FitCR.Controllers
 {
     public class ControladorClientes
     {
         private readonly IRepositorio<Cliente> repositorio;
+        private readonly ServicioUsuarios servicioUsuarios;
 
-        public ControladorClientes(IRepositorio<Cliente> repositorioRecibido)
+        public ControladorClientes(
+            IRepositorio<Cliente> repositorioRecibido)
         {
             repositorio = repositorioRecibido;
+            servicioUsuarios = new ServicioUsuarios();
         }
 
         public List<Cliente> ObtenerClientes()
@@ -22,30 +25,40 @@ namespace FitCR.Controllers
 
         public void RegistrarCliente(Cliente nuevoCliente)
         {
-            // Validaciones 
+            //Validaciones
             if (string.IsNullOrWhiteSpace(nuevoCliente.Nombre))
             {
-                throw new ArgumentException("El nombre es obligatorio.");
+                throw new ArgumentException(
+                    "El nombre es obligatorio.");
             }
 
-            if (string.IsNullOrWhiteSpace(nuevoCliente.NombreUsuario))
+            if (string.IsNullOrWhiteSpace(
+                nuevoCliente.NombreUsuario))
             {
-                throw new ArgumentException("El nombre de usuario es obligatorio.");
+                throw new ArgumentException(
+                    "El nombre de usuario es obligatorio.");
             }
 
             if (nuevoCliente.Edad <= 0)
             {
-                throw new ArgumentException("La edad debe ser mayor a cero.");
+                throw new ArgumentException(
+                    "La edad debe ser mayor a cero.");
             }
 
-            if (nuevoCliente.Peso <= 0 || nuevoCliente.Estatura <= 0)
+            if (nuevoCliente.Peso <= 0 ||
+                nuevoCliente.Estatura <= 0)
             {
                 throw new ArgumentException(
-                    "El peso y la estatura deben ser mayores a cero."
-                );
+                    "El peso y la estatura deben ser mayores a cero.");
             }
 
-            List<Cliente> clientes = repositorio.ObtenerTodos();
+            nuevoCliente.Nombre = nuevoCliente.Nombre.Trim();
+
+            nuevoCliente.NombreUsuario =
+                nuevoCliente.NombreUsuario.Trim();
+
+            List<Cliente> clientes =
+                repositorio.ObtenerTodos();
 
             foreach (Cliente cliente in clientes)
             {
@@ -54,9 +67,15 @@ namespace FitCR.Controllers
                     StringComparison.OrdinalIgnoreCase))
                 {
                     throw new ArgumentException(
-                        "Este nombre de usuario ya esta registrado. Ingrese otro nombre."
-                    );
+                        "Este nombre de usuario ya está registrado. Ingrese otro nombre.");
                 }
+            }
+
+            if (servicioUsuarios.ExisteNombreUsuario(
+                nuevoCliente.NombreUsuario))
+            {
+                throw new ArgumentException(
+                    "Este nombre de usuario ya está registrado. Ingrese otro nombre.");
             }
 
             int siguienteId = 1;
@@ -72,8 +91,8 @@ namespace FitCR.Controllers
             nuevoCliente.Id = siguienteId;
 
             clientes.Add(nuevoCliente);
+
             repositorio.GuardarTodos(clientes);
         }
     }
 }
-

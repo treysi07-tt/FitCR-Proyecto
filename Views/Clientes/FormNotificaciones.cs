@@ -132,8 +132,9 @@ namespace FitCR.Views.Clientes
                 "Invitados",
                 "Medidas",
                 "Objetivos",
-                "Insignias"
-            });
+                "Insignias",
+                "Clases"
+            }); 
 
             comboTipo.SelectedIndex = 0;
 

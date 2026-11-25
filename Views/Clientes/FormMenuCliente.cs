@@ -22,7 +22,7 @@ namespace FitCR.Views.Clientes
             InitializeComponent();
             cliente = clienteRecibido;
             Text = "Fit.CR - Menu principal";
-            ClientSize = new Size(650, 850);
+            ClientSize = new Size(650, 920);
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -77,7 +77,7 @@ namespace FitCR.Views.Clientes
 
             Button buttonCerrarSesion = new Button();
             buttonCerrarSesion.Text = "Cerrar sesión";
-            buttonCerrarSesion.Location = new Point(225, 700);
+            buttonCerrarSesion.Location = new Point(225, 780);
             buttonCerrarSesion.Size = new Size(200, 45);
 
             Button buttonInvitados = new Button();
@@ -100,14 +100,20 @@ namespace FitCR.Views.Clientes
             buttonInsignias.Click += buttonInsignias_Click;
 
             Button buttonNotificaciones = new Button();
-
             buttonNotificaciones.Name = "buttonNotificaciones";
             buttonNotificaciones.Text = "Notificaciones";
             buttonNotificaciones.Location = new Point(175, 605);
             buttonNotificaciones.Size = new Size(300, 45);
             buttonNotificaciones.Font = new Font("Segoe UI", 12);
-
             buttonNotificaciones.Click += buttonNotificaciones_Click;
+
+            Button buttonClases = new Button();
+            buttonClases.Name = "buttonClases";
+            buttonClases.Text = "Clases del gimnasio";
+            buttonClases.Location = new Point(175, 665);
+            buttonClases.Size = new Size(300, 50);
+            buttonClases.Font = new Font("Segoe UI", 11);
+            buttonClases.Click += buttonClases_Click;
 
             Controls.Add(labelBienvenida);
             Controls.Add(labelMenu);
@@ -120,11 +126,22 @@ namespace FitCR.Views.Clientes
             Controls.Add(buttonVisitas);
             Controls.Add(buttonInsignias);
             Controls.Add(buttonNotificaciones);
+            Controls.Add(buttonClases);
 
             buttonCerrarSesion.Click += (sender, e) =>
             {
                 Close();
             };
+        }
+
+        private void buttonClases_Click(
+            object? sender, EventArgs e)
+        {
+            using (FormClasesCliente formulario =
+                new FormClasesCliente(cliente))
+            {
+                formulario.ShowDialog();
+            }
         }
 
         private void buttonNotificaciones_Click(
