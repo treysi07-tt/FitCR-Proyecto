@@ -603,7 +603,7 @@ namespace FitCR.Views.Entrenadores
             tablaClientes.ClearSelection();
         }
 
-        private void FormatearColumnasCliente(
+        private static void FormatearColumnasCliente(
             DataGridView tabla)
         {
             CambiarTituloColumna(
@@ -615,7 +615,7 @@ namespace FitCR.Views.Entrenadores
             );
         }
 
-        private void CambiarTituloColumna(
+        private static void CambiarTituloColumna(
             DataGridView tabla,
             string nombre,
             string titulo)

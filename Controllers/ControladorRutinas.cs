@@ -137,7 +137,7 @@ namespace FitCR.Controllers
                 .ToList();
         }
 
-        private void ValidarRutina(Rutina rutina)
+        private static void ValidarRutina(Rutina rutina)
         {
             if (rutina.IdCliente <= 0)
             {

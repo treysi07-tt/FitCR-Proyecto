@@ -435,7 +435,7 @@ namespace FitCR.Controllers
             };
         }
 
-        private bool EstaEnPeriodo(
+        private static bool EstaEnPeriodo(
             DateTime fecha,
             DateTime inicio,
             DateTime fin)
@@ -444,7 +444,7 @@ namespace FitCR.Controllers
                    fecha.Date <= fin.Date;
         }
 
-        private void ValidarFechas(
+        private static void ValidarFechas(
             DateTime inicio,
             DateTime fin)
         {

@@ -189,7 +189,7 @@ namespace FitCR.Controllers
             );
         }
 
-        private void CalcularCantidad(
+        private static void CalcularCantidad(
             double cantidad,
             double meta,
             ProgresoObjetivo progreso)
@@ -392,12 +392,12 @@ namespace FitCR.Controllers
                     }
 
                     double pesoInicial =
-                        (double)medidaInicial.Peso;
+                        medidaInicial.Peso;
 
                     bool aumentarPeso =
                         objetivo.ValorMeta > pesoInicial;
 
-                    if (pesoInicial == objetivo.ValorMeta)
+                    if (Math.Abs(pesoInicial - objetivo.ValorMeta) < 0.000001)
                     {
                         return medidaInicial.Fecha <
                             objetivo.FechaCreacion
@@ -407,7 +407,7 @@ namespace FitCR.Controllers
 
                     foreach (RegistroMedida medida in medidasPeriodo)
                     {
-                        double peso = (double)medida.Peso;
+                        double peso = medida.Peso;
 
                         bool metaAlcanzada = aumentarPeso
                             ? peso >= objetivo.ValorMeta

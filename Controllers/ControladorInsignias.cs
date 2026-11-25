@@ -316,7 +316,7 @@ namespace FitCR.Controllers
             return nuevasInsignias;
         }
 
-        private int CalcularRachaMaxima(
+        private static int CalcularRachaMaxima(
             List<RegistroVisita> visitas)
         {
             var fechas = visitas
@@ -355,7 +355,7 @@ namespace FitCR.Controllers
             return rachaMaxima;
         }
 
-        private bool RegresoAlGimnasio(
+        private static bool RegresoAlGimnasio(
             List<RegistroVisita> visitas)
         {
             var fechas = visitas
@@ -378,7 +378,7 @@ namespace FitCR.Controllers
             return false;
         }
 
-        private bool TieneInactividad(
+        private static bool TieneInactividad(
             List<RegistroVisita> visitas)
         {
             if (visitas.Count == 0)
@@ -396,7 +396,7 @@ namespace FitCR.Controllers
             return diasSinAsistir >= 15;
         }
 
-        private bool TieneMejoraRutinas(List<Rutina> rutinas)
+        private static bool TieneMejoraRutinas(List<Rutina> rutinas)
         {
             var rutinasCompletadas = rutinas
                 .Where(r =>
@@ -462,15 +462,6 @@ namespace FitCR.Controllers
             return false;
         }
 
-        private bool EstaDisponible(int idInsignia)
-        {
-            int[] pendientes =
-            {
-        8, 16, 17, 25, 34, 37, 38
-    };
-
-            return !pendientes.Contains(idInsignia);
-        }
 
     }
 }

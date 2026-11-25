@@ -138,7 +138,7 @@ namespace FitCR.Views.Clientes
             Controls.Add(buttonVolver);
         }
 
-        private void ConfigurarTabla(DataGridView tabla)
+        private static void ConfigurarTabla(DataGridView tabla)
         {
             tabla.ReadOnly = true;
             tabla.AllowUserToAddRows = false;
@@ -343,7 +343,7 @@ namespace FitCR.Views.Clientes
             }
         }
 
-        private void FormatearTabla(DataGridView tabla)
+        private static void FormatearTabla(DataGridView tabla)
         {
             CambiarTituloColumna(
                 tabla, "Descripcion", "Descripción"
@@ -367,7 +367,7 @@ namespace FitCR.Views.Clientes
             }
         }
 
-        private void CambiarTituloColumna(
+        private static void CambiarTituloColumna(
             DataGridView tabla,
             string nombreColumna,
             string titulo)

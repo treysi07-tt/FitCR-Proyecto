@@ -331,7 +331,7 @@ namespace FitCR.Services
 
             return cantidad;
         }
-        private int NotificarClases(int idCliente)
+        private static int NotificarClases(int idCliente)
         {
             ServicioClases servicioClases =
                 new ServicioClases();

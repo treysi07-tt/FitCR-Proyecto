@@ -336,12 +336,12 @@ namespace FitCR.Views.Clientes
             }
         }
 
-        private bool EstaDisponible(int idInsignia)
+        private static bool EstaDisponible(int idInsignia)
         {
             return idInsignia >= 1 && idInsignia <= 38;
         }
 
-        private void FormatearColumnas(DataGridView tabla)
+        private static void FormatearColumnas(DataGridView tabla)
         {
             if (tabla.Columns["Id"] is DataGridViewColumn columnaId)
             {

@@ -134,7 +134,7 @@ namespace FitCR.Controllers
         }
 
         // Validaciones
-        private void ValidarObjetivo(Objetivo objetivo)
+        private static void ValidarObjetivo(Objetivo objetivo)
         {
             if (objetivo.IdCliente <= 0)
             {
